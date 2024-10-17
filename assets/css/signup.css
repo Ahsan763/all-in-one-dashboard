@@ -1,0 +1,136 @@
+.logins{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/loginbg.png) no-repeat bottom center;
+    position: relative;
+}
+.madeby-login{
+    position: absolute;
+    inset: auto auto 20px auto;
+}
+.madeby-login .madeby_text{
+    color: #fff;
+}
+.madeby_text2{
+    color: var(--light-blue);
+}
+.loginsBox{
+    max-width: 570px;
+    margin: auto;
+    padding: 0 35px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    position: relative;
+    z-index: 0;
+
+}
+.loginsBox::after{
+    content: '';
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    z-index: -1;
+    border-radius: 20px;
+}
+.loginslogo_box_logo{
+    width: auto;
+    height: 100px;
+    image-rendering: auto;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    /* animation: rotation 10s infinite linear; */
+    box-shadow: 0 0 0 15px rgba(255,255,255,0.22);
+    border-radius: 50%;
+}
+@keyframes rotation{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.loginsBox_heading{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #fff;
+    margin-top: 30px;
+}
+.form_row{
+    row-gap: 20px;
+}
+.loginsBox_input_label{
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+    line-height: 1;
+}
+.loginsBox_input{
+    height: 55px;
+    font-size: 16px;
+    border: 1px solid var(--border);
+}
+.loginsBox_input:focus{
+    box-shadow: none;
+}
+.loginsBox_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 55px;
+    color: var(--white);
+    background-color: var(--light-blue);
+    font-size: 20px;
+    font-weight: 700;
+}
+.loginsBox_button:hover{
+    border: 2px solid var(--white);
+    color: var(--white);
+    background-color: transparent;
+}
+.loginsBox_text{
+    font-size: 16px;
+    color: #fff;
+}
+.login_link_wrapper{
+    column-gap: 10px;
+}
+.login_link{
+    font-size: 16px;
+    color: var(--cyan);
+}
+.login_link:hover{
+    color: #fff;
+}
+@media(max-width:767px){
+    .loginsBox{
+        margin-inline: 1rem;
+    }
+    .madeby-login {
+        inset: auto auto 10px auto;
+    }
+    .loginsBox {
+        padding: 0 30px;
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+    .loginsBox_heading {
+        margin-bottom: 20px;
+    }
+    .loginsBox_input {
+        height: 50px;
+    }
+    .form_row {
+        row-gap: 15px;
+    }
+}
+/*  */

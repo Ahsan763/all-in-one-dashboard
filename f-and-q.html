@@ -1,0 +1,772 @@
+<!doctype html>
+<html dir="ltr">
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Favicons -->
+	<link href="assets/images/favicone.png" rel="icon">
+	<!-- font aweasome -->
+    <link rel="stylesheet" href="dist/fontawesome-6.2.0/css/all.min.css">
+	<!-- bootstrap 5.2.2 -->
+	<link href="dist/bootstrap-5.2.2/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css" />
+	<script src="dist/jquery-3.6.1/jquery-3.6.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+	<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<!-- fonts -->
+	<link href="dist/fonts/fonts.css" rel="stylesheet">
+	<!-- Main Stylesheet File -->
+	<link href="assets/css/aside.css" rel="stylesheet">
+	<link href="assets/css/main.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/alert.css" rel="stylesheet">
+	<link href="assets/css/media_queries.css" rel="stylesheet">
+	<link href="assets/css/rtl.css" rel="stylesheet">
+	<link href="assets/css/darkTheme.css" rel="stylesheet">
+</head>
+<body>
+<div class="body-wrapper">
+	<div class="dashboard-wrapper flex">
+		<aside class="aside">
+			<div class="logo_wrapper flex items-center">
+				<div class="logo_holder">
+					<img src="assets/images/logo.png" alt="skilled logo" class="logo_img">
+				</div>
+				<h1 class="logo_text">Skilled Theme</h1>
+			</div>
+			<div class="aside_container">
+				<div class="dropdownHolder">
+					<div class="asidbox asidbox-dropdown active open">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-gauge asidbox_icons_icon"></i>
+						</div>
+						<a href="/" class="asidbox_Link">
+							Home
+						</a>
+						<i class="fa-solid fa-chevron-right asidbox_icons_icon2"></i>
+					</div>
+					<ul class="aside-drpdwn-list d-block">
+						<li class="aside-drpdwn-list__item">
+							<div class="aside-drpdwn-list__icone">
+								<img src="assets/images/aside/home/top-menu.svg" alt="" class="aside-drpdwn-list__icone-img dark-none">
+								<img src="assets/images/aside/home/top-menu-dark.svg" alt="" class="aside-drpdwn-list__icone-img d-none dark-show">
+							</div>
+							<a class="aside-drpdwn-list__link" href="top-menu.html">Top Menu</a>
+							<div class="status flex gap-3  wrapper al-center">
+								<input type="checkbox" id="TopMenu" class="idad-btn-box__input" checked>
+								<label for="TopMenu" class="idad-btn-box__label"></label>
+							</div>
+						</li>
+						<li class="aside-drpdwn-list__item">
+							<div class="aside-drpdwn-list__icone">
+								<img src="assets/images/aside/home/slider.svg" alt="" class="aside-drpdwn-list__icone-img dark-none">
+								<img src="assets/images/aside/home/slider-dark.svg" alt="" class="aside-drpdwn-list__icone-img d-none dark-show">
+							</div>
+							<a class="aside-drpdwn-list__link" href="slider.html"> Slider </a>
+							<div class="status flex gap-3  wrapper al-center">
+								<input type="checkbox" id="Slider" class="idad-btn-box__input">
+								<label for="Slider" class="idad-btn-box__label"></label>
+							</div>
+						</li>
+						<li class="aside-drpdwn-list__item">
+							<div class="aside-drpdwn-list__icone">
+								<img src="assets/images/aside/home/testimonial.svg" alt="" class="aside-drpdwn-list__icone-img dark-none ">
+								<img src="assets/images/aside/home/testimonial-dark.svg" alt="" class="aside-drpdwn-list__icone-img d-none dark-show">
+							</div>
+							<a class="aside-drpdwn-list__link" href="testimonial.html"> Testimonial  </a>
+							<div class="status flex gap-3  wrapper al-center">
+								<input type="checkbox" id="Testimonial" class="idad-btn-box__input">
+								<label for="Testimonial" class="idad-btn-box__label"></label>
+							</div>
+						</li>
+						<li class="aside-drpdwn-list__item">
+							<div class="aside-drpdwn-list__icone">
+								<img src="assets/images/aside/home/client.svg" alt="" class="aside-drpdwn-list__icone-img dark-none">
+								<img src="assets/images/aside/home/client-dark.svg" alt="" class="aside-drpdwn-list__icone-img d-none dark-show">
+							</div>
+							<a class="aside-drpdwn-list__link" href="client.html"> Client  </a>
+							<div class="status flex gap-3  wrapper al-center">
+								<input type="checkbox" id="Client" class="idad-btn-box__input">
+								<label for="Client" class="idad-btn-box__label"></label>
+							</div>
+						</li>
+						<li class="aside-drpdwn-list__item">
+							<div class="aside-drpdwn-list__icone">
+								<img src="assets/images/aside/home/faq.svg" alt="" class="aside-drpdwn-list__icone-img dark-none ">
+								<img src="assets/images/aside/home/faq-dark.svg" alt="" class="aside-drpdwn-list__icone-img d-none dark-show">
+							</div>
+							<a class="aside-drpdwn-list__link" href="f-and-q.html"> F&Q  </a>
+							<div class="status flex gap-3  wrapper al-center">
+								<input type="checkbox" id="fandq" class="idad-btn-box__input">
+								<label for="fandq" class="idad-btn-box__label"></label>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<a href="about.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-circle-info asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						About
+					</p>
+				</a>
+				<a href="services.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-regular fa-circle-check asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Services
+					</p>
+				</a>
+				<a href="projects.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-folder-open asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Projects
+					</p>
+				</a>
+				
+				<a href="teams.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-people-group asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Teams
+					</p>
+				</a>
+				<a href="contact.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-regular fa-address-card asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Contact us
+					</p>
+				</a>
+				<a href="blog.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-blog asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Blog
+					</p>
+				</a>
+				<a href="packages.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-cubes asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Packages
+					</p>
+				</a>
+				<a href="files-and-media.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-photo-film asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Files & Media
+					</p>
+				</a>
+				<a href="messages.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-regular fa-envelope asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Messages
+					</p>
+				</a>
+				<a href="settings.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-gear asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Settings
+					</p>
+				</a>
+				<div class="dropdownHolder">
+					<div class="asidbox asidbox-dropdown">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-gauge asidbox_icons_icon"></i>
+						</div>
+						<div class="asidbox_Link">
+							Career
+						</div>
+						<i class="fa-solid fa-chevron-right asidbox_icons_icon2"></i>
+					</div>
+					<ul class="aside-drpdwn-list">
+						<li class="aside-drpdwn-list__item">
+							<div class="aside-drpdwn-list__icone">
+								<img src="assets/images/aside/career/file_create_icon.svg" alt="" class="aside-drpdwn-list__icone-img dark-none">
+								<img src="assets/images/aside/career/file_create_icon-dark.svg" alt="" class="aside-drpdwn-list__icone-img d-none dark-show">
+							</div>
+							<a class="aside-drpdwn-list__link" href="career.html">Jobs</a>
+						</li>
+						<li class="aside-drpdwn-list__item">
+							<div class="aside-drpdwn-list__icone">
+								<img src="assets/images/aside/career/folder_create_icon.svg" alt="" class="aside-drpdwn-list__icone-img dark-none">
+								<img src="assets/images/aside/career/folder_create_icon-dark.svg" alt="" class="aside-drpdwn-list__icone-img d-none dark-show">
+							</div>
+							<a class="aside-drpdwn-list__link" href="categories.html"> Categories </a>
+						</li>
+						<li class="aside-drpdwn-list__item">
+							<div class="aside-drpdwn-list__icone">
+								<img src="assets/images/aside/career/Job.svg" alt="" class="aside-drpdwn-list__icone-img dark-none ">
+								<img src="assets/images/aside/career/job-dark.svg" alt="" class="aside-drpdwn-list__icone-img d-none dark-show">
+							</div>
+							<a class="aside-drpdwn-list__link" href="applications.html"> Applications  </a>
+						</li>
+					</ul>
+				</div>
+				<div class="asidbox_person mb-3">
+					<div class="asidbox_person_row flex items-center justify-between">
+						<div class="asidbox_personbox1">
+							<img src="assets/images/aas.png" alt="" class="asidbox_personbox1_img">
+						</div>
+						<div class="asidbox_personbox2">
+							<h6 class="asidbox_personbox2_name">
+								Admin
+							</h6>
+							<p class="asidbox_personbox2_type">Admin</p>
+						</div>
+					</div>
+					<div class="asidbox_person_row  flex items-center justify-center">
+						<div class="logout_button">  
+							<form method="POST" action="" x-data="">
+								<input type="hidden" name="_token" value="">
+                                <a href="#" class="navbar_profile_box_menu_link">
+									<div class="navbar_profile_box_menu_item_icone">
+										<i class="fa-solid fa-arrow-right-from-bracket"></i>
+									</div>
+									<h6 class="navbar_profile_box_menu_item_text navbar_profile_box_menu_item_text2">Log Out</h6>
+								</a>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="madeby flex items-center justify-center text-center">
+				<p class="madeby_text">Made <span class="madeby_text2 pb-2"> by </span>Skilled Tech</p>
+			</div>
+		</aside>
+		<!-- aside end -->
+		<main class="main">
+			<div class="dashboard_header">
+				<div class="navbar">
+					<button class="sidebar_btn">
+						<i class="fa-solid fa-bars-staggered sidebar_btn_icon"></i>
+					</button>
+					<div class="navbar_box1">
+						<p class="navbar_box_text">Hello Admin</p>
+					</div>
+					<div class="navbar_box2">
+						<div class="navbar_search_box">
+							<input type="text" placeholder="looking for" class="navbar_search_box_input">
+							<button type="submit" class="navbar_search_box_btn">
+								<i class="fa fa-search navbar_search_box_btn_icone"></i>
+							</button>
+						</div>
+						<div class="navbar_notifications_box flex items-center">
+							<div class="navbar_noti_box">
+								<div class="navbar_noti_box_counter">
+									5
+								</div>
+								<i class="fa-regular fa-envelope navbar_noti_box_icone"></i>
+								<div class="navbar_noti_box_details">
+									<div class="navbar_noti_box_details_for_hover"></div>
+									<div class="navbar_noti_box_details_header">
+										Message
+									</div>
+									<div class="navbar_noti_box_details_body">
+										<div class="navbar_noti_box_details_box unread">
+											<div class="navbar_noti_box_details_box_img_holder">
+												<img src="assets/images/profile.png" alt="" class="navbar_noti_box_details_box_img">
+											</div>
+											<div class="navbar_noti_box_details_box_content">
+												<h4 class="navbar_noti_box_details_box_name">Ahsan</h4>
+												<p class="navbar_noti_box_details_box_desc">
+													We send you the money
+												</p>
+											</div>
+										</div>
+										<div class="navbar_noti_box_details_box">
+											<div class="navbar_noti_box_details_box_img_holder">
+												<img src="assets/images/profile.png" alt="" class="navbar_noti_box_details_box_img">
+											</div>
+											<div class="navbar_noti_box_details_box_content">
+												<h4 class="navbar_noti_box_details_box_name">Ahsan</h4>
+												<p class="navbar_noti_box_details_box_desc">
+													We send you the money
+												</p>
+											</div>
+										</div>
+										<div class="navbar_noti_box_details_box">
+											<div class="navbar_noti_box_details_box_img_holder">
+												<img src="assets/images/profile.png" alt="" class="navbar_noti_box_details_box_img">
+											</div>
+											<div class="navbar_noti_box_details_box_content">
+												<h4 class="navbar_noti_box_details_box_name">Ahsan</h4>
+												<p class="navbar_noti_box_details_box_desc">
+													We send you the money
+												</p>
+											</div>
+										</div>
+										<div class="navbar_noti_box_details_box">
+											<div class="navbar_noti_box_details_box_img_holder">
+												<img src="assets/images/profile.png" alt="" class="navbar_noti_box_details_box_img">
+											</div>
+											<div class="navbar_noti_box_details_box_content">
+												<h4 class="navbar_noti_box_details_box_name">Ahsan</h4>
+												<p class="navbar_noti_box_details_box_desc">
+													We send you the money
+												</p>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+							<div class="navbar_noti_box">
+								<div class="navbar_noti_box_counter navbar_noti_box_counter2">
+									8
+								</div>
+								<i class="fa-regular fa-bell navbar_noti_box_icone"></i>
+								<div class="navbar_noti_box_details">
+									<div class="navbar_noti_box_details_for_hover"></div>
+									<div class="navbar_noti_box_details_header">
+										Notification
+									</div>
+									<div class="navbar_noti_box_details_body">
+										<div class="navbar_noti_box_no-notification">
+											<img src="assets/images/no-notification.png" class="navbar_noti_box_no-notification_img">
+										</div>
+										<h6 class="navbar_noti_box_no-notification_text">No Think Yet</h6>
+									</div>
+								</div>
+							</div>
+							<!-- profile button with dropdown -->
+							<div class="dropdown">
+								<div class="navbar_profile_box flex items-center dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" >
+									<div class="navbar_profile_box_img_holder">
+										<img src="assets/images/profile.png" alt="" class="navbar_profile_box_img">
+									</div>
+									<h6 class="navbar_profile_box_name">Muhammad</h6>
+								</div>
+								<ul class="dropdown-menu navbar_profile_box_menu" aria-labelledby="dropdownMenuLink">
+									<li class="navbar_profile_box_menu_item">
+										<a href="profile.html" class="navbar_profile_box_menu_link">
+											<div class="navbar_profile_box_menu_item_icone">
+												<i class="fa-regular fa-user navbar_profile_box_menu_item_icone_img"></i>
+											</div>
+											<h6 class="navbar_profile_box_menu_item_text">My Profile</h6>
+										</a>
+									</li>
+									<li class="navbar_profile_box_menu_item">
+										<a href="#" class="navbar_profile_box_menu_link">
+											<div class="navbar_profile_box_menu_item_icone">
+												<i class="fa fa-gear navbar_profile_box_menu_item_icone_img"></i>
+											</div>
+											<h6 class="navbar_profile_box_menu_item_text">Profile Setting</h6>
+										</a>
+									</li>
+									<li class="navbar_profile_box_menu_item">
+										<a href="#" class="navbar_profile_box_menu_link">
+											<div class="navbar_profile_box_menu_item_icone">
+												<i class="fa-solid fa-shield-halved navbar_profile_box_menu_item_icone_img"></i>
+											</div>
+											<h6 class="navbar_profile_box_menu_item_text">Action</h6>
+										</a>
+									</li>
+									<li class="navbar_profile_box_menu_item">
+										<a href="#" class="navbar_profile_box_menu_link">
+											<div class="navbar_profile_box_menu_item_icone">
+												<i class="fa-solid fa-arrow-right-from-bracket navbar_profile_box_menu_item_icone_img"></i>
+											</div>
+											<h6 class="navbar_profile_box_menu_item_text navbar_profile_box_menu_item_text2">Log Out</h6>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<!-- profile button with dropdown -->
+						</div>
+					</div>
+				</div>
+				<div class="navbar_search_box_mobile">
+					<input type="text" placeholder="search" class="navbar_search_box_mobile_input">
+				</div>
+				<div class="bottom_navbar">
+					<div class="bottom_navbar_left">
+						<div class="bottom_navbar_datebox flex items-center">
+							<i class="fa-solid fa-calendar-days bottom_navbar_datebox_icon"></i>
+							<h6 class="bottom_navbar_datebox_date">28, June</h6>
+						</div>
+						<div class="bottom_navbar_left_page flex items-center">
+							<div class="bottom_navbar_left_page_dot"></div>
+							<p class="bottom_navbar_left_page_name">F & Q</p>
+						</div>
+					</div>
+					<div class="bottom_navbar_right">
+						<div class="language_toggle">
+							<div class="language_toggle_ar">
+								<img src="assets/images/ar.svg" class="language_toggle_ar_img dark-none">
+								<img src="assets/images/ar-dark.svg" class="language_toggle_ar_img d-none dark-show">
+							</div>
+							<div class="language_toggle_en">
+								<img src="assets/images/en.svg" class="language_toggle_ar_img dark-none">
+								<img src="assets/images/en-dark.svg" class="language_toggle_ar_img d-none dark-show">
+							</div>
+						</div>
+						<div class="theme_toggle">
+							<div class="theme_toggle_light">
+								<img src="assets/images/light.png" alt="" class="theme_toggle_img dark-none">
+								<img src="assets/images/light-dark.svg" alt="" class="theme_toggle_img d-none dark-show">
+							</div>
+							<div class="theme_toggle_dark">
+								<img src="assets/images/dark.png" alt="" class="theme_toggle_img dark-none">
+								<img src="assets/images/dark-dark.svg" alt="" class="theme_toggle_img d-none dark-show">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- dashboard_header end -->
+			<div class="main_body">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="card pd-0 card-slider">
+								<div class="card-header flex justify-between">
+									<div class="card-header__left flex items-center">
+										<div class="create-btn"  role="button" data-bs-toggle="modal" data-bs-target="#createfq">
+											<div class="create-btn-b1">
+												<i class="fa-solid fa-plus create-btn-b1__icn"></i>
+											</div>
+											<div class="create-btn-b2">Create New</div>
+										</div>
+										<div class="table_search flex items-center justify-center">
+											<input type="text" class="table_search_input" placeholder="Search">
+											<button class="table_search_btn flex items-center justify-center">
+												<i class="fa fa-magnifying-glass icon"></i>
+											</button>
+										</div>
+									</div>
+									<div class="card-header__right flex items-center">
+										<div class="table-view-btns-wrapper flex items-center">
+											<div class="table-view-btn table-view-btn--list flex items-center active">
+												<svg xmlns="http://www.w3.org/2000/svg" width="22" height="19" viewBox="0 0 22 19" class="table-list-btn__icn">
+													<g id="Group_124" data-name="Group 124" transform="translate(-1120 -181)">
+													<rect id="Rectangle_673" data-name="Rectangle 673" width="22" height="5" rx="1" transform="translate(1120 181)" fill="#d2d2d2"/>
+													<rect id="Rectangle_674" data-name="Rectangle 674" width="22" height="5" rx="1" transform="translate(1120 188)" fill="#d2d2d2"/>
+													<rect id="Rectangle_675" data-name="Rectangle 675" width="22" height="5" rx="1" transform="translate(1120 195)" fill="#d2d2d2"/>
+													</g>
+												</svg>
+											</div>
+											<div class="table-view-btn table-view-btn--grid flex items-center">
+												<svg xmlns="http://www.w3.org/2000/svg" width="22" height="19" viewBox="0 0 22 19" class="table-list-btn__icn">
+													<g id="Group_125" data-name="Group 125" transform="translate(-1154 -181)">
+													  <rect id="Rectangle_669" data-name="Rectangle 669" width="9" height="8" rx="1" transform="translate(1167 181)" fill="#f4f6f9"/>
+													  <rect id="Rectangle_670" data-name="Rectangle 670" width="9" height="8" rx="1" transform="translate(1154 181)" fill="#f4f6f9"/>
+													  <rect id="Rectangle_671" data-name="Rectangle 671" width="9" height="8" rx="1" transform="translate(1154 192)" fill="#f4f6f9"/>
+													  <rect id="Rectangle_672" data-name="Rectangle 672" width="9" height="8" rx="1" transform="translate(1167 192)" fill="#f4f6f9"/>
+													</g>
+												</svg>
+											</div>
+										</div>
+										<div class="table_card_filter flex items-center">
+											<p class="table_card_filter_text">Show</p>
+											<select name="" id="" class="form-select table_card_filter_select">
+												<option value="">All</option>
+												<option value="">All</option>
+												<option value="">All</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="card-body card-body-for-list">
+									<div class="table-responsive">
+										<table class="table card_table">
+											<thead>
+												<tr>
+													<th scope="col" class="tableHeading">ID</th>
+													<th scope="col" class="tableHeading">Question</th>
+													<th scope="col" class="tableHeading">Answer</th>
+													<th scope="col" class="tableHeading">Image</th>
+													<th scope="col" class="tableHeading">Date</th>
+													<th scope="col" class="tableHeading">Action</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td scope="col">1</td>
+													<td scope="col">
+														<div class="qa">
+															Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, iure. Repudiandae labore ea dolores adipisci explicabo totam voluptatum, aliquid corporis.
+														</div>
+													</td>
+													<td scope="col">
+														<div class="qa">
+															Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas totam facilis, voluptas iusto quam quaerat at aperiam aliquid vel minus numquam ipsam ea quibusdam? Voluptatem fuga illum iusto culpa quo?
+														</div>
+													</td>
+													<td scope="col">
+														<img src="assets/images/aas.png" alt="" class="table_data_img" />
+													</td>
+													<td scope="col">
+														12/10/2022
+													</td>
+													<td scope="col">
+														<div class="action_box flex items-center">
+															<div class="action_box1" role="button" data-bs-toggle="modal" data-bs-target="#viewfq">
+																<i class="fa-solid fa-eye icon action_box1_icon"></i>
+															</div>
+															<div class="action_box1 content_sidebar_edit_btn" role="button" data-bs-toggle="modal" data-bs-target="#editfq">
+																<i class="fa-solid fa-edit icon action_box1_icon"></i>
+															</div>
+															<div class="action_box1" role="button" data-bs-toggle="modal" data-bs-target="#delete">
+																<button>
+																	<i class="fa-regular fa-trash-can icon action_box1_icon"></i>
+																</button>
+															</div>
+														</div>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+								<div class="card-body card-body-for-grid d-none">
+									<div class="grid-card-wrapper">
+										<div class="grid-card">
+											<div class="grid-card__hdr">
+												<img src="assets/images/builder.png" alt="" class="grid-card__img">
+												<div class="grid-card-in-box">
+													<div class="grid-card-in_btn">
+														<i class="fa-solid fa-chevron-down"></i>
+													</div>
+													<div class="grid-card-in__btn-wrapr">
+														<div class="action_box flex items-center">
+															<div class="action_box1" role="button" data-bs-toggle="modal" data-bs-target="#viewfq">
+																<i class="fa-solid fa-eye icon action_box1_icon"></i>
+															</div>
+															<div class="action_box1 content_sidebar_edit_btn" role="button" data-bs-toggle="modal" data-bs-target="#editfq">
+																<i class="fa-solid fa-edit icon action_box1_icon"></i>
+															</div>
+															<div class="action_box1" role="button" data-bs-toggle="modal" data-bs-target="#delete">
+																<button>
+																	<i class="fa-regular fa-trash-can icon action_box1_icon"></i>
+																</button>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="grid-card__body">
+												<div class="flex items-center justify-between">
+													<h1 class="grid-card__body-hdng">Testimonial add</h1>
+													<div class="grid-card__body-tag">building</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="pagination">
+									<div class="pagination-btn active">1</div>
+									<div class="pagination-btn">2</div>
+									<div class="pagination-btn">3</div>
+									<div class="pagination-btn">...</div>
+									<div class="pagination-btn">15</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- main_body end -->
+		</main>
+	</div>
+</div>
+<!-- body-wrapper end -->
+<div class="modal fade" id="createfq" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+            <div class="modal-body modal-body--pd-0 text-center">
+				<div class="myModal__hdr flex items-center justify-between">
+					<h1 class="myModal__hdr-hdng">Create F & Q</h1>
+					<button type="button" class="modalClose" data-bs-dismiss="modal">
+						<i class="fa-solid fa-xmark modalClose_icon"></i>
+					</button>
+				</div>
+               <div class="myModal__body myModal__body--slider">
+					<div class="row">
+						<div class="col-md-12">
+							<form action="" >
+								<input type="text"  placeholder="Question" class="form-input">
+								<div class="textarea-holder">
+									<textarea name="" id="" placeholder="Answer" class="form-textarea"></textarea>
+									<div class="textareaexpander" role="button" data-bs-toggle="modal" data-bs-target="#expandComment" >
+										<img src="assets/images/maximize-icone.svg" alt="" class="textareaexpander__img">
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+			   </div>
+			   <div class="myModal__footer">
+					<div class="myModal__footer-btn_wrapper">
+						<div class="myModal__footer-btn myModal__footer-btn1" data-bs-dismiss="modal">
+							Cancel
+						</div>
+						<div class="myModal__footer-btn">
+							Save
+						</div>
+					</div>
+			   </div>
+            </div>
+		</div>
+	</div>
+</div>
+<!-- create f and q end -->
+<div class="modal fade" id="editfq" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+            <div class="modal-body modal-body--pd-0 text-center">
+				<div class="myModal__hdr flex items-center justify-between">
+					<h1 class="myModal__hdr-hdng">Update F & Q</h1>
+					<button type="button" class="modalClose" data-bs-dismiss="modal">
+						<i class="fa-solid fa-xmark modalClose_icon"></i>
+					</button>
+				</div>
+               <div class="myModal__body myModal__body--slider">
+					<div class="row">
+						<div class="col-md-12">
+							<form action="" >
+								<input type="text"  placeholder="Question" class="form-input">
+								<div class="textarea-holder">
+									<textarea name="" id="" placeholder="Answer" class="form-textarea"></textarea>
+									<div class="textareaexpander" role="button" data-bs-toggle="modal" data-bs-target="#editexpandComment" >
+										<img src="assets/images/maximize-icone.svg" alt="" class="textareaexpander__img">
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+			   </div>
+			   <div class="myModal__footer">
+					<div class="myModal__footer-btn_wrapper">
+						<div class="myModal__footer-btn myModal__footer-btn1" data-bs-dismiss="modal">
+							Cancel
+						</div>
+						<div class="myModal__footer-btn">
+							Save
+						</div>
+					</div>
+			   </div>
+            </div>
+		</div>
+	</div>
+</div>
+<!-- edit f and q end -->
+<div class="modal fade" id="expandComment" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			
+            <div class="modal-body text-center">
+				<button type="button" class="modalClose" role="button" data-bs-toggle="modal" data-bs-target="#createfq">
+					<i class="fa-solid fa-arrow-left-long modalClose_icon"></i>
+				</button>
+               <div class="myModal__body">
+					<form action="">
+						<textarea name="" id="" class="expendedtextarea" placeholder="Description"></textarea>
+					</form>
+			   </div>
+            </div>
+		</div>
+	</div>
+</div>
+<!-- expandComment in create f and q end -->
+<div class="modal fade" id="editexpandComment" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			
+            <div class="modal-body text-center">
+				<button type="button" class="modalClose" role="button" data-bs-toggle="modal" data-bs-target="#editfq">
+					<i class="fa-solid fa-arrow-left-long modalClose_icon"></i>
+				</button>
+               <div class="myModal__body">
+					<form action="">
+						<textarea name="" id="" class="expendedtextarea" placeholder="Description"></textarea>
+					</form>
+			   </div>
+            </div>
+		</div>
+	</div>
+</div>
+<!-- expandComment in edit f and q end -->
+<div class="modal fade" id="viewfq" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+            <div class="modal-body modal-body--pd-0 text-center">
+				<div class="myModal__body ">
+					<div class="myModal__body-hdng">F&Q</div>
+					<div class="faq-img-hol mb-3 pt-2">
+						<img src="assets/images/faq.png" alt="" class="faq-img">
+					</div>
+					
+					<div class="myModal_body_row flex items-center">
+						<i class="fa-solid fa-check sky-blue"></i>
+						<p class="myModal_body_row_text2 text-purple-700">Question</p>
+					</div>
+					<div class="myModal_body_row flex items-center">
+						<i class="fa-solid fa-check white"></i>
+						<p class="myModal_body_row_text">hey how are you doing</p>
+					</div>
+					<div class="myModal_body_row flex items-center">
+						<i class="fa-solid fa-check sky-blue"></i>
+						<p class="myModal_body_row_text2 text-purple-700">Question</p>
+					</div>
+					<div class="myModal_body_row flex items-center">
+						<i class="fa-solid fa-check white"></i>
+						<p class="myModal_body_row_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has</p>
+					</div>
+				</div>
+            </div>
+		</div>
+	</div>
+</div>
+<!-- view f and q end -->
+<div class="modal fade" id="delete" tabindex="-1" aria-labelledby="deleteCateModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+            <div class="modal-body modal-body--pd-0 text-center">
+				<div class="myModal__hdr flex items-center justify-between">
+					<h1 class="myModal__hdr-hdng">Delete ID No #1</h1>
+					<button type="button" class="modalClose" data-bs-dismiss="modal">
+						<i class="fa-solid fa-xmark modalClose_icon"></i>
+					</button>
+				</div>
+               <div class="myModal__body">
+					<img src="assets/images/del-modl1.png" alt="" class="myModal__icn">
+					<p class="myModal__text">
+						Are you sure you want to <span class="dark-pink"> delete </span>  this ?
+					</p>
+					<button class="myModal__delbtn">
+						<span class="myModal__deltext">Yes Do it</span>
+						<span class="myModal__deltext  myModal__deltext2 d-none">Delete</span>
+						<img src="assets/images/dell-icone.png" alt="" class="myModal__delbtn-img">
+					</button>
+			   </div>
+            </div>
+		</div>
+	</div>
+</div>
+<!-- delete end -->
+<script src="dist/bootstrap-flash-alert.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+<script src="https://unpkg.com/create-file-list"></script>
+<script src="assets/js/scripts.js"></script>
+</body>
+</html>

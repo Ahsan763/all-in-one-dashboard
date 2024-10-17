@@ -1,0 +1,594 @@
+<!doctype html>
+<html dir="ltr">
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Profile</title>
+	<!-- Favicons -->
+	<link href="assets/images/favicone.png" rel="icon">
+	<!-- font aweasome -->
+    <link rel="stylesheet" href="dist/fontawesome-6.2.0/css/all.min.css">
+	<!-- bootstrap 5.2.2 -->
+	<link href="dist/bootstrap-5.2.2/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css" />
+	<script src="dist/jquery-3.6.1/jquery-3.6.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+	<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<!-- fonts -->
+	<link href="dist/fonts/fonts.css" rel="stylesheet">
+	<!-- Main Stylesheet File -->
+	<link href="assets/css/aside.css" rel="stylesheet">
+	<link href="assets/css/main.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/alert.css" rel="stylesheet">
+	<link href="assets/css/media_queries.css" rel="stylesheet">
+	<link href="assets/css/rtl.css" rel="stylesheet">
+	<link href="assets/css/darkTheme.css" rel="stylesheet">
+</head>
+<body>
+<div class="body-wrapper">
+	<div class="dashboard-wrapper flex">
+		<aside class="aside">
+			<div class="logo_wrapper flex items-center">
+				<div class="logo_holder">
+					<img src="assets/images/logo.png" alt="skilled logo" class="logo_img">
+				</div>
+				<h1 class="logo_text">Skilled Theme</h1>
+			</div>
+			<div class="aside_container">
+				<div class="dropdownHolder">
+					<div class="asidbox asidbox-dropdown">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-gauge asidbox_icons_icon"></i>
+						</div>
+						<a href="/" class="asidbox_Link">
+							Home
+						</a>
+						<i class="fa-solid fa-chevron-right asidbox_icons_icon2"></i>
+					</div>
+					<ul class="aside-drpdwn-list">
+						<li class="aside-drpdwn-list__item">
+							<div class="aside-drpdwn-list__icone">
+								<img src="assets/images/aside/home/top-menu.svg" alt="" class="aside-drpdwn-list__icone-img dark-none">
+								<img src="assets/images/aside/home/top-menu-dark.svg" alt="" class="aside-drpdwn-list__icone-img d-none dark-show">
+							</div>
+							<a class="aside-drpdwn-list__link" href="top-menu.html">Top Menu</a>
+							<div class="status flex gap-3  wrapper al-center">
+								<input type="checkbox" id="TopMenu" class="idad-btn-box__input" checked>
+								<label for="TopMenu" class="idad-btn-box__label"></label>
+							</div>
+						</li>
+						<li class="aside-drpdwn-list__item">
+							<div class="aside-drpdwn-list__icone">
+								<img src="assets/images/aside/home/slider.svg" alt="" class="aside-drpdwn-list__icone-img dark-none">
+								<img src="assets/images/aside/home/slider-dark.svg" alt="" class="aside-drpdwn-list__icone-img d-none dark-show">
+							</div>
+							<a class="aside-drpdwn-list__link" href="slider.html"> Slider </a>
+							<div class="status flex gap-3  wrapper al-center">
+								<input type="checkbox" id="Slider" class="idad-btn-box__input">
+								<label for="Slider" class="idad-btn-box__label"></label>
+							</div>
+						</li>
+						<li class="aside-drpdwn-list__item">
+							<div class="aside-drpdwn-list__icone">
+								<img src="assets/images/aside/home/testimonial.svg" alt="" class="aside-drpdwn-list__icone-img dark-none ">
+								<img src="assets/images/aside/home/testimonial-dark.svg" alt="" class="aside-drpdwn-list__icone-img d-none dark-show">
+							</div>
+							<a class="aside-drpdwn-list__link" href="testimonial.html"> Testimonial  </a>
+							<div class="status flex gap-3  wrapper al-center">
+								<input type="checkbox" id="Testimonial" class="idad-btn-box__input">
+								<label for="Testimonial" class="idad-btn-box__label"></label>
+							</div>
+						</li>
+						<li class="aside-drpdwn-list__item">
+							<div class="aside-drpdwn-list__icone">
+								<img src="assets/images/aside/home/client.svg" alt="" class="aside-drpdwn-list__icone-img dark-none">
+								<img src="assets/images/aside/home/client-dark.svg" alt="" class="aside-drpdwn-list__icone-img d-none dark-show">
+							</div>
+							<a class="aside-drpdwn-list__link" href="client.html"> Client  </a>
+							<div class="status flex gap-3  wrapper al-center">
+								<input type="checkbox" id="Client" class="idad-btn-box__input">
+								<label for="Client" class="idad-btn-box__label"></label>
+							</div>
+						</li>
+						<li class="aside-drpdwn-list__item">
+							<div class="aside-drpdwn-list__icone">
+								<img src="assets/images/aside/home/faq.svg" alt="" class="aside-drpdwn-list__icone-img dark-none ">
+								<img src="assets/images/aside/home/faq-dark.svg" alt="" class="aside-drpdwn-list__icone-img d-none dark-show">
+							</div>
+							<a class="aside-drpdwn-list__link" href="f-and-q.html"> F&Q  </a>
+							<div class="status flex gap-3  wrapper al-center">
+								<input type="checkbox" id="fandq" class="idad-btn-box__input">
+								<label for="fandq" class="idad-btn-box__label"></label>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<a href="about.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-circle-info asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						About
+					</p>
+				</a>
+				<a href="services.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-regular fa-circle-check asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Services
+					</p>
+				</a>
+				<a href="projects.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-folder-open asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Projects
+					</p>
+				</a>
+				
+				<a href="teams.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-people-group asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Teams
+					</p>
+				</a>
+				<a href="contact.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-regular fa-address-card asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Contact us
+					</p>
+				</a>
+				<a href="blog.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-blog asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Blog
+					</p>
+				</a>
+				<a href="packages.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-cubes asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Packages
+					</p>
+				</a>
+				<a href="files-and-media.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-photo-film asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Files & Media
+					</p>
+				</a>
+				<a href="messages.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-regular fa-envelope asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Messages
+					</p>
+				</a>
+				<a href="settings.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-gear asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Settings
+					</p>
+				</a>
+				<div class="dropdownHolder">
+					<div class="asidbox asidbox-dropdown">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-gauge asidbox_icons_icon"></i>
+						</div>
+						<div class="asidbox_Link">
+							Career
+						</div>
+						<i class="fa-solid fa-chevron-right asidbox_icons_icon2"></i>
+					</div>
+					<ul class="aside-drpdwn-list">
+						<li class="aside-drpdwn-list__item">
+							<div class="aside-drpdwn-list__icone">
+								<img src="assets/images/aside/career/file_create_icon.svg" alt="" class="aside-drpdwn-list__icone-img dark-none">
+								<img src="assets/images/aside/career/file_create_icon-dark.svg" alt="" class="aside-drpdwn-list__icone-img d-none dark-show">
+							</div>
+							<a class="aside-drpdwn-list__link" href="career.html">Jobs</a>
+						</li>
+						<li class="aside-drpdwn-list__item">
+							<div class="aside-drpdwn-list__icone">
+								<img src="assets/images/aside/career/folder_create_icon.svg" alt="" class="aside-drpdwn-list__icone-img dark-none">
+								<img src="assets/images/aside/career/folder_create_icon-dark.svg" alt="" class="aside-drpdwn-list__icone-img d-none dark-show">
+							</div>
+							<a class="aside-drpdwn-list__link" href="categories.html"> Categories </a>
+						</li>
+						<li class="aside-drpdwn-list__item">
+							<div class="aside-drpdwn-list__icone">
+								<img src="assets/images/aside/career/Job.svg" alt="" class="aside-drpdwn-list__icone-img dark-none ">
+								<img src="assets/images/aside/career/job-dark.svg" alt="" class="aside-drpdwn-list__icone-img d-none dark-show">
+							</div>
+							<a class="aside-drpdwn-list__link" href="applications.html"> Applications  </a>
+						</li>
+					</ul>
+				</div>
+				<div class="asidbox_person mb-3">
+					<div class="asidbox_person_row flex items-center justify-between">
+						<div class="asidbox_personbox1">
+							<img src="assets/images/aas.png" alt="" class="asidbox_personbox1_img">
+						</div>
+						<div class="asidbox_personbox2">
+							<h6 class="asidbox_personbox2_name">
+								Admin
+							</h6>
+							<p class="asidbox_personbox2_type">Admin</p>
+						</div>
+					</div>
+					<div class="asidbox_person_row  flex items-center justify-center">
+						<div class="logout_button">  
+							<form method="POST" action="" x-data="">
+								<input type="hidden" name="_token" value="">
+                                <a href="#" class="navbar_profile_box_menu_link">
+									<div class="navbar_profile_box_menu_item_icone">
+										<i class="fa-solid fa-arrow-right-from-bracket"></i>
+									</div>
+									<h6 class="navbar_profile_box_menu_item_text navbar_profile_box_menu_item_text2">Log Out</h6>
+								</a>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="madeby flex items-center justify-center text-center">
+				<p class="madeby_text">Made <span class="madeby_text2 pb-2"> by </span>Skilled Tech</p>
+			</div>
+		</aside>
+		<!-- aside end -->
+		<main class="main">
+			<div class="dashboard_header">
+				<div class="navbar">
+					<button class="sidebar_btn">
+						<i class="fa-solid fa-bars-staggered sidebar_btn_icon"></i>
+					</button>
+					<div class="navbar_box1">
+						<p class="navbar_box_text">Hello Admin</p>
+					</div>
+					<div class="navbar_box2">
+						<div class="navbar_search_box">
+							<input type="text" placeholder="looking for" class="navbar_search_box_input">
+							<button type="submit" class="navbar_search_box_btn">
+								<i class="fa fa-search navbar_search_box_btn_icone"></i>
+							</button>
+						</div>
+						<div class="navbar_notifications_box flex items-center">
+							<div class="navbar_noti_box">
+								<div class="navbar_noti_box_counter">
+									5
+								</div>
+								<i class="fa-regular fa-envelope navbar_noti_box_icone"></i>
+								<div class="navbar_noti_box_details">
+									<div class="navbar_noti_box_details_for_hover"></div>
+									<div class="navbar_noti_box_details_header">
+										Message
+									</div>
+									<div class="navbar_noti_box_details_body">
+										<div class="navbar_noti_box_details_box unread">
+											<div class="navbar_noti_box_details_box_img_holder">
+												<img src="assets/images/profile.png" alt="" class="navbar_noti_box_details_box_img">
+											</div>
+											<div class="navbar_noti_box_details_box_content">
+												<h4 class="navbar_noti_box_details_box_name">Ahsan</h4>
+												<p class="navbar_noti_box_details_box_desc">
+													We send you the money
+												</p>
+											</div>
+										</div>
+										<div class="navbar_noti_box_details_box">
+											<div class="navbar_noti_box_details_box_img_holder">
+												<img src="assets/images/profile.png" alt="" class="navbar_noti_box_details_box_img">
+											</div>
+											<div class="navbar_noti_box_details_box_content">
+												<h4 class="navbar_noti_box_details_box_name">Ahsan</h4>
+												<p class="navbar_noti_box_details_box_desc">
+													We send you the money
+												</p>
+											</div>
+										</div>
+										<div class="navbar_noti_box_details_box">
+											<div class="navbar_noti_box_details_box_img_holder">
+												<img src="assets/images/profile.png" alt="" class="navbar_noti_box_details_box_img">
+											</div>
+											<div class="navbar_noti_box_details_box_content">
+												<h4 class="navbar_noti_box_details_box_name">Ahsan</h4>
+												<p class="navbar_noti_box_details_box_desc">
+													We send you the money
+												</p>
+											</div>
+										</div>
+										<div class="navbar_noti_box_details_box">
+											<div class="navbar_noti_box_details_box_img_holder">
+												<img src="assets/images/profile.png" alt="" class="navbar_noti_box_details_box_img">
+											</div>
+											<div class="navbar_noti_box_details_box_content">
+												<h4 class="navbar_noti_box_details_box_name">Ahsan</h4>
+												<p class="navbar_noti_box_details_box_desc">
+													We send you the money
+												</p>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+							<div class="navbar_noti_box">
+								<div class="navbar_noti_box_counter navbar_noti_box_counter2">
+									8
+								</div>
+								<i class="fa-regular fa-bell navbar_noti_box_icone"></i>
+								<div class="navbar_noti_box_details">
+									<div class="navbar_noti_box_details_for_hover"></div>
+									<div class="navbar_noti_box_details_header">
+										Notification
+									</div>
+									<div class="navbar_noti_box_details_body">
+										<div class="navbar_noti_box_no-notification">
+											<img src="assets/images/no-notification.png" class="navbar_noti_box_no-notification_img">
+										</div>
+										<h6 class="navbar_noti_box_no-notification_text">No Think Yet</h6>
+									</div>
+								</div>
+							</div>
+							<!-- profile button with dropdown -->
+							<div class="dropdown">
+								<div class="navbar_profile_box flex items-center dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" >
+									<div class="navbar_profile_box_img_holder">
+										<img src="assets/images/profile.png" alt="" class="navbar_profile_box_img">
+									</div>
+									<h6 class="navbar_profile_box_name">Muhammad</h6>
+								</div>
+								<ul class="dropdown-menu navbar_profile_box_menu" aria-labelledby="dropdownMenuLink">
+									<li class="navbar_profile_box_menu_item">
+										<a href="profile.html" class="navbar_profile_box_menu_link">
+											<div class="navbar_profile_box_menu_item_icone">
+												<i class="fa-regular fa-user navbar_profile_box_menu_item_icone_img"></i>
+											</div>
+											<h6 class="navbar_profile_box_menu_item_text">My Profile</h6>
+										</a>
+									</li>
+									<li class="navbar_profile_box_menu_item">
+										<a href="#" class="navbar_profile_box_menu_link">
+											<div class="navbar_profile_box_menu_item_icone">
+												<i class="fa fa-gear navbar_profile_box_menu_item_icone_img"></i>
+											</div>
+											<h6 class="navbar_profile_box_menu_item_text">Profile Setting</h6>
+										</a>
+									</li>
+									<li class="navbar_profile_box_menu_item">
+										<a href="#" class="navbar_profile_box_menu_link">
+											<div class="navbar_profile_box_menu_item_icone">
+												<i class="fa-solid fa-shield-halved navbar_profile_box_menu_item_icone_img"></i>
+											</div>
+											<h6 class="navbar_profile_box_menu_item_text">Action</h6>
+										</a>
+									</li>
+									<li class="navbar_profile_box_menu_item">
+										<a href="#" class="navbar_profile_box_menu_link">
+											<div class="navbar_profile_box_menu_item_icone">
+												<i class="fa-solid fa-arrow-right-from-bracket navbar_profile_box_menu_item_icone_img"></i>
+											</div>
+											<h6 class="navbar_profile_box_menu_item_text navbar_profile_box_menu_item_text2">Log Out</h6>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<!-- profile button with dropdown -->
+						</div>
+					</div>
+				</div>
+				<div class="navbar_search_box_mobile">
+					<input type="text" placeholder="search" class="navbar_search_box_mobile_input">
+				</div>
+				<div class="bottom_navbar">
+					<div class="bottom_navbar_left">
+						<div class="bottom_navbar_datebox flex items-center">
+							<i class="fa-solid fa-calendar-days bottom_navbar_datebox_icon"></i>
+							<h6 class="bottom_navbar_datebox_date">28, June</h6>
+						</div>
+						<div class="bottom_navbar_left_page flex items-center">
+							<div class="bottom_navbar_left_page_dot"></div>
+							<p class="bottom_navbar_left_page_name">Profile
+							</p>
+						</div>
+					</div>
+					<div class="bottom_navbar_right">
+						<div class="language_toggle">
+							<div class="language_toggle_ar">
+								<img src="assets/images/ar.svg" class="language_toggle_ar_img dark-none">
+								<img src="assets/images/ar-dark.svg" class="language_toggle_ar_img d-none dark-show">
+							</div>
+							<div class="language_toggle_en">
+								<img src="assets/images/en.svg" class="language_toggle_ar_img dark-none">
+								<img src="assets/images/en-dark.svg" class="language_toggle_ar_img d-none dark-show">
+							</div>
+						</div>
+						<div class="theme_toggle">
+							<div class="theme_toggle_light">
+								<img src="assets/images/light.png" alt="" class="theme_toggle_img dark-none">
+								<img src="assets/images/light-dark.svg" alt="" class="theme_toggle_img d-none dark-show">
+							</div>
+							<div class="theme_toggle_dark">
+								<img src="assets/images/dark.png" alt="" class="theme_toggle_img dark-none">
+								<img src="assets/images/dark-dark.svg" alt="" class="theme_toggle_img d-none dark-show">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- dashboard_header end -->
+			<div class="main_body">
+				<div class="container-fluid">
+					<div class="row profile-cards-wrpr">
+						<div class="col-xl-7">
+							<div class="profile-card">
+								<div class="profile-card__header">
+									<img src="assets/images/profilea2.png" alt="" class="profile-card__img">
+								</div>
+								<div class="profile-card__body">
+									<div class="profCard__row">
+										<img src="assets/images/avatar.png" alt="" class="profCard__img">
+										<div class="profCard__p-det-cont">
+											<h1 class="profCard__p-det-name">Ahsan Iqbal</h1>
+											<div class="profCard__p-det-title flex items-center gap-1">
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13">
+													<g id="Group_204" data-name="Group 204" transform="translate(-424 -371)">
+														<g id="Ellipse_151" data-name="Ellipse 151" transform="translate(424 371)" fill="#fff" stroke="#118528" stroke-width="1">
+															<circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
+															<circle cx="6.5" cy="6.5" r="6" fill="none"/>
+														</g>
+													  	<path id="_8666665_check_icon_1_" data-name="8666665_check_icon (1)" d="M9.521,6l-3.8,3.267L4,7.782" transform="translate(423.74 370.156)" fill="none" stroke="#118528" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+													</g>
+												</svg>
+												Admin
+											</div>
+										</div>
+									</div>
+									<div class="profCard__row2 row">
+										<div class="col-md-6">
+											<div class="profCardBox flex items-center gap-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16.8" height="11.954" viewBox="0 0 16.8 11.954">
+													<path id="_3586360_email_envelope_mail_send_icon" data-name="3586360_email_envelope_mail_send_icon" d="M23.749,32.871a.342.342,0,0,0,.015-.1V21.458a.34.34,0,0,0-.016-.1s0-.009,0-.013a.325.325,0,0,0-.054-.1l0-.006,0,0a.3.3,0,0,0-.086-.069l-.007,0a.268.268,0,0,0-.1-.026H7.237a.272.272,0,0,0-.1.027l-.005,0a.292.292,0,0,0-.087.07l0,0s0,0,0,.006a.326.326,0,0,0-.054.1s0,.009,0,.013a.34.34,0,0,0-.016.1V32.774a.343.343,0,0,0,.016.1l0,.013a.326.326,0,0,0,.055.1l0,.006,0,0a.306.306,0,0,0,.031.03l.014.013a.265.265,0,0,0,.041.025l.01.006a.271.271,0,0,0,.115.026H23.472a.268.268,0,0,0,.115-.026l.016-.009a.293.293,0,0,0,.035-.022l.017-.015a.278.278,0,0,0,.028-.027l0,0,0-.006a.326.326,0,0,0,.054-.1A.123.123,0,0,0,23.749,32.871ZM7.549,22.183l4.92,4.911-4.92,4.951Zm10.085,4.671a.282.282,0,0,0-.059.047c-.006.008-.009.018-.014.026l-2.2,2.192L8.01,21.778H22.718Zm-4.731.673,2.264,2.26a.274.274,0,0,0,.394,0L17.8,27.555l4.919,4.9H8.006Zm5.329-.4,4.948-4.939V32.05Z" transform="translate(-6.964 -21.139)" fill="#585858"/>
+												</svg>
+												a7med2023@gmail.com
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="profCardBox flex items-center gap-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="9.091" height="14.545" viewBox="0 0 9.091 14.545">
+													<path id="mobile_phone" d="M4.818,14.545h5.454a1.818,1.818,0,0,0,1.818-1.818V1.818A1.818,1.818,0,0,0,10.273,0H4.818A1.818,1.818,0,0,0,3,1.818V12.727A1.818,1.818,0,0,0,4.818,14.545ZM3.909,1.818h7.273V12.727H3.909Z" transform="translate(-3)" fill="#585858"/>
+												</svg>
+												+9715050370092
+											</div>
+										</div>
+									</div>
+									<div class="profCard__row2 row">
+										<div class="col-md-12">
+											<div class="profCardBox flex items-center gap-2">
+												It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-5">
+							<div class="profile-card">
+								<div class="profile-card__body profile-card__body2">
+									<div class="profCard__row2 row">
+										<div class="col-md-12">
+											<div class="profCardBox flex items-center gap-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="23" viewBox="0 0 24 23">
+													<g id="Group_205" data-name="Group 205" transform="translate(-885 -186)">
+													  	<ellipse id="Ellipse_149" data-name="Ellipse 149" cx="12" cy="11.5" rx="12" ry="11.5" transform="translate(885 186)" fill="#edf1fe"/>
+														<g id="_7351045_edit_user_profile_avatar_icon" data-name="7351045_edit_user_profile_avatar_icon" transform="translate(889.312 189.149)">
+															<path id="Path_628" data-name="Path 628" d="M2,18.63C2,16,4.4,15,6.719,15a6.923,6.923,0,0,1,2.21.341" transform="translate(0 -5.048)" fill="none" stroke="#5356e1" stroke-linecap="round" stroke-width="0.8"/>
+															<path id="Path_629" data-name="Path 629" d="M10.774,5.373c0,1.48-.169,3.127-2.541,3.127S5.692,6.853,5.692,5.373a2.613,2.613,0,0,1,2.541-2.68A2.613,2.613,0,0,1,10.774,5.373Z" transform="translate(-1.514)" fill="none" stroke="#5356e1" stroke-width="0.8"/>
+															<path id="Path_630" data-name="Path 630" d="M14.322,15.83l2.934-3.479.384-.1,1.044.88-.036.4L15.714,17l-1.534.407Z" transform="translate(-4.996 -3.92)" fill="none" stroke="#5356e1" stroke-width="0.8"/>
+															<path id="Path_631" data-name="Path 631" d="M18.463,13.383l1.428,1.27" transform="translate(-6.753 -4.385)" fill="none" stroke="#5356e1" stroke-width="0.8"/>
+														</g>
+													</g>
+												</svg>
+												Update Profile
+											</div>
+										</div>
+									</div>
+									<ul class="nav nav-tabs nav-tabs--contact" id="myTab" role="tablist">
+										<li class="nav-item" role="presentation">
+										  <button class="nav-link active light-blue" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Basic Info</button>
+										</li>
+										<li class="nav-item" role="presentation">
+										  <button class="nav-link light-blue" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Password</button>
+										</li>
+									</ul>
+									<div class="tab-content tab-content--contact" id="myTabContent">
+										<div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+											<form action="">
+												<div class="row prf-tab-row">
+													<div class="col-md-6">
+														<input type="text" class="form-input" placeholder="Ahmed">
+													</div>
+													<div class="col-md-6">
+														<input type="text" class="form-input" placeholder="Omer">
+													</div>
+												</div>
+												<div class="row prf-tab-row">
+													<div class="col-md-6">
+														<input type="text" class="form-input" placeholder="a7med2023@gmail.com">
+													</div>
+													<div class="col-md-6">
+														<input type="text" class="form-input" placeholder="+9715050370092">
+													</div>
+												</div>
+												<div class="row prf-tab-row">
+													<p class="prf-tab_text">Bio</p>
+													<div class="col-md-12">
+														<textarea type="text" class="form-input form-textarea form-textarea2" placeholder="a7med2023@gmail.com">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</textarea>
+													</div>
+												</div>
+												<div class="row prf-tab-row">
+													<p class="file-upload__hdng">Profile Image</p>
+													<input class="input-id" id="input-id" name="file-data" type="file">
+												</div>
+												<div class="row prf-tab-row">
+													<div class="col-md-12">
+														<button class="form-btn">Update</button>
+													</div>
+												</div>
+											</form>
+										</div>
+										<div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+											<form action="">
+												<div class="row prf-tab-row">
+													<div class="col-md-6">
+														<input type="text" class="form-input" placeholder="Password">
+													</div>
+													<div class="col-md-6">
+														<input type="text" class="form-input" placeholder="Confirm Password">
+													</div>
+												</div>
+												<div class="row prf-tab-row">
+													<div class="col-md-12">
+														<button class="form-btn">Update</button>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- main_body end -->
+		</main>
+	</div>
+	<!-- dashboard-wrapper -->
+</div>
+<!-- body-wrapper -->
+<script src="dist/bootstrap-flash-alert.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+<script src="https://unpkg.com/create-file-list"></script>
+<script src="assets/js/scripts.js"></script>
+</body>
+</html>

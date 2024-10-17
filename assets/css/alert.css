@@ -1,0 +1,36 @@
+.alert{
+    position: relative;
+}
+.alert.alert-success{
+    max-width: 450px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 3px 20px 0 rgba(0,0,0,0.05);
+    border-bottom: 5px solid #27AB4F;
+}
+.header p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #3D4740;
+    position: relative;
+    padding-left: 50px;
+}
+.alert.alert-success .header p::after{
+    content: url(../images/success-flash-icone.png);
+    position: absolute;
+    top: -3px;
+    left: 0;
+}
+.alert .close{
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 22px;
+}

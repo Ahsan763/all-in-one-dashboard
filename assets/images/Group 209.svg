@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="83" height="83" viewBox="0 0 83 83">
+  <defs>
+    <filter id="Ellipse_169" x="0" y="0" width="83" height="83" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#a29f9f" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_209" data-name="Group 209" transform="translate(-427.5 -142.5)">
+    <g transform="matrix(1, 0, 0, 1, 427.5, 142.5)" filter="url(#Ellipse_169)">
+      <g id="Ellipse_169-2" data-name="Ellipse 169" transform="translate(22.5 22.5)" fill="#fff" stroke="#639cf2" stroke-width="1">
+        <circle cx="19" cy="19" r="19" stroke="none"/>
+        <circle cx="19" cy="19" r="18.5" fill="none"/>
+      </g>
+    </g>
+    <g id="_4213460_account_avatar_head_person_profile_icon" data-name="4213460_account_avatar_head_person_profile_icon" transform="translate(443.051 160.336)">
+      <path id="Path_707" data-name="Path 707" d="M30,20.441A5.441,5.441,0,1,0,35.441,15,5.457,5.457,0,0,0,30,20.441Zm9.6,0a4.161,4.161,0,1,1-4.161-4.161A4.173,4.173,0,0,1,39.6,20.441Z" transform="translate(-9.492)" fill="#639cf2"/>
+      <path id="Path_708" data-name="Path 708" d="M19.612,98.9a8.963,8.963,0,0,1,12.675,0l.912-.912a10.277,10.277,0,0,0-14.5,0Z" transform="translate(0 -67.197)" fill="#639cf2"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,173 @@
+/*
+Theme name:Skilled Theme;
+autor:ahsan Contact Whatsup + skype +923014749625;
+*/
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root{
+	--white: #fff;
+	--off-white: #F4F6F9;
+	--off-white2: #F9FBFC;
+	--orange: #FA5D46;
+	--sky-blue: #EDF1FE;
+	--light-blue: #5356E1;
+	--light-purple: #4C4C6F;
+	--icons: #898989;
+	--border: #F4F4F4;
+	--mid-black: #3B3A3A;
+	--cyan:#3AB4F2;
+	--dark-pink: #D2074C;
+}
+.dark-pink{
+	color: #D2074C;
+}
+body,html{
+	font-family: 'Tajawal' !important;
+	color: var(--mid-black);
+	font-weight: 500;
+}
+h1,h2,h3,h4,h5,h6,p,span,form,ul,a{
+    margin: 0;
+    padding: 0;
+	font-family: 'Tajawal';
+}
+img{
+	max-width: 100%;
+}
+ul{
+	list-style: none;
+	font-family: 'Tajawal';
+}
+button{
+	border: none;
+	outline: none;
+	background: none;
+	font-family: 'Tajawal';
+}
+a{
+	text-decoration: none;
+	color: var(--mid-black);
+    transition: all 0.3s ease-in-out;
+	font-family: 'Tajawal';
+}
+a:hover{
+	color: var(--mid-black);
+	text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+input{
+	outline: none;
+}
+.wrapper{
+	display: flex;
+}
+.flex{
+	display: flex;
+}
+.d-col{
+    flex-direction: column;
+}
+.items-center{
+	align-items: center;
+}
+.justify-center{
+	justify-content: center;
+}
+.justify-between{
+	justify-content: space-between;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.mgb-0{
+	margin-bottom: 0 !important;
+}
+.mgt-0{
+	margin-top: 0 !important;
+}
+.mgr-0{
+	margin-right: 0 !important;
+}
+.mgl-0{
+	margin-left: 0 !important;
+}
+.ml-auto{
+    margin-left: auto;
+}
+.mr-auto{
+    margin-right: auto;
+}
+.pd-0{
+	padding: 0 !important;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.capitalize{
+	text-transform: capitalize;
+}
+.btn1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border: none;
+	outline: none;
+	text-decoration: none;
+}
+
+.dashboard-wrapper{
+	min-height: 100vh;
+}
+.boder{
+	border: 1px solid var(--border);
+}
+.border-radious-8{
+	border-radius: 8px;
+}
+.card{
+	background-color: var(--white);
+	padding: 25px 20px;
+	border: none;
+	box-shadow: 0 3px 20px 0 rgba(0,0,0,0.02);
+	margin-bottom: 25px;
+}
+.card-slider{
+	padding: 25px 0 !important;
+}
+.card-header{
+    background-color: #fff;
+    border-bottom: 1px solid var(--border);
+    padding: 0px 25px;
+	padding-bottom: 25px;
+	margin-bottom: 25px;
+}
+.card-body{
+	background-color: #fff;
+	padding: 0px 25px;
+}
+.card:nth-last-child(1){
+	margin-bottom: 0;
+}
+.card_header{
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.card_header_heading{
+	font-size: 22px;
+	color: var(--mid-black);
+	font-family: 'Tajawal';
+}
+.card_header_link_icone{
+	font-size: 24px;
+	line-height: 1;
+	color: var(--light-blue);
+}
+.icon{
+    color: var(--icons);
+}

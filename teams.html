@@ -1,0 +1,1501 @@
+<!doctype html>
+<html dir="ltr">
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Teams</title>
+	<!-- Favicons -->
+	<link href="assets/images/favicone.png" rel="icon">
+	<!-- font aweasome -->
+    <link rel="stylesheet" href="dist/fontawesome-6.2.0/css/all.min.css">
+	<!-- bootstrap 5.2.2 -->
+	<link href="dist/bootstrap-5.2.2/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css" />
+	<script src="dist/jquery-3.6.1/jquery-3.6.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+	<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<!-- fonts -->
+	<link href="dist/fonts/fonts.css" rel="stylesheet">
+	<!-- Main Stylesheet File -->
+	<link href="assets/css/aside.css" rel="stylesheet">
+	<link href="assets/css/main.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/alert.css" rel="stylesheet">
+	<link href="assets/css/media_queries.css" rel="stylesheet">
+	<link href="assets/css/rtl.css" rel="stylesheet">
+	<link href="assets/css/darkTheme.css" rel="stylesheet">
+</head>
+<body>
+<div class="body-wrapper">
+	<div class="dashboard-wrapper flex">
+		<aside class="aside">
+			<div class="logo_wrapper flex items-center">
+				<div class="logo_holder">
+					<img src="assets/images/logo.png" alt="skilled logo" class="logo_img">
+				</div>
+				<h1 class="logo_text">Skilled Theme</h1>
+			</div>
+			<div class="aside_container">
+				<div class="dropdownHolder">
+					<div class="asidbox asidbox-dropdown">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-gauge asidbox_icons_icon"></i>
+						</div>
+						<a href="/" class="asidbox_Link">
+							Home
+						</a>
+						<i class="fa-solid fa-chevron-right asidbox_icons_icon2"></i>
+					</div>
+					<ul class="aside-drpdwn-list">
+						<li class="aside-drpdwn-list__item">
+							<div class="aside-drpdwn-list__icone">
+								<img src="assets/images/aside/home/top-menu.svg" alt="" class="aside-drpdwn-list__icone-img dark-none">
+								<img src="assets/images/aside/home/top-menu-dark.svg" alt="" class="aside-drpdwn-list__icone-img d-none dark-show">
+							</div>
+							<a class="aside-drpdwn-list__link" href="top-menu.html">Top Menu</a>
+							<div class="status flex gap-3  wrapper al-center">
+								<input type="checkbox" id="TopMenu" class="idad-btn-box__input" checked>
+								<label for="TopMenu" class="idad-btn-box__label"></label>
+							</div>
+						</li>
+						<li class="aside-drpdwn-list__item">
+							<div class="aside-drpdwn-list__icone">
+								<img src="assets/images/aside/home/slider.svg" alt="" class="aside-drpdwn-list__icone-img dark-none">
+								<img src="assets/images/aside/home/slider-dark.svg" alt="" class="aside-drpdwn-list__icone-img d-none dark-show">
+							</div>
+							<a class="aside-drpdwn-list__link" href="slider.html"> Slider </a>
+							<div class="status flex gap-3  wrapper al-center">
+								<input type="checkbox" id="Slider" class="idad-btn-box__input">
+								<label for="Slider" class="idad-btn-box__label"></label>
+							</div>
+						</li>
+						<li class="aside-drpdwn-list__item">
+							<div class="aside-drpdwn-list__icone">
+								<img src="assets/images/aside/home/testimonial.svg" alt="" class="aside-drpdwn-list__icone-img dark-none ">
+								<img src="assets/images/aside/home/testimonial-dark.svg" alt="" class="aside-drpdwn-list__icone-img d-none dark-show">
+							</div>
+							<a class="aside-drpdwn-list__link" href="testimonial.html"> Testimonial  </a>
+							<div class="status flex gap-3  wrapper al-center">
+								<input type="checkbox" id="Testimonial" class="idad-btn-box__input">
+								<label for="Testimonial" class="idad-btn-box__label"></label>
+							</div>
+						</li>
+						<li class="aside-drpdwn-list__item">
+							<div class="aside-drpdwn-list__icone">
+								<img src="assets/images/aside/home/client.svg" alt="" class="aside-drpdwn-list__icone-img dark-none">
+								<img src="assets/images/aside/home/client-dark.svg" alt="" class="aside-drpdwn-list__icone-img d-none dark-show">
+							</div>
+							<a class="aside-drpdwn-list__link" href="client.html"> Client  </a>
+							<div class="status flex gap-3  wrapper al-center">
+								<input type="checkbox" id="Client" class="idad-btn-box__input">
+								<label for="Client" class="idad-btn-box__label"></label>
+							</div>
+						</li>
+						<li class="aside-drpdwn-list__item">
+							<div class="aside-drpdwn-list__icone">
+								<img src="assets/images/aside/home/faq.svg" alt="" class="aside-drpdwn-list__icone-img dark-none ">
+								<img src="assets/images/aside/home/faq-dark.svg" alt="" class="aside-drpdwn-list__icone-img d-none dark-show">
+							</div>
+							<a class="aside-drpdwn-list__link" href="f-and-q.html"> F&Q  </a>
+							<div class="status flex gap-3  wrapper al-center">
+								<input type="checkbox" id="fandq" class="idad-btn-box__input">
+								<label for="fandq" class="idad-btn-box__label"></label>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<a href="about.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-circle-info asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						About
+					</p>
+				</a>
+				<a href="services.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-regular fa-circle-check asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Services
+					</p>
+				</a>
+				<a href="projects.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-folder-open asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Projects
+					</p>
+				</a>
+				
+				<a href="teams.html" class="asidbox active">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-people-group asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Teams
+					</p>
+				</a>
+				<a href="contact.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-regular fa-address-card asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Contact us
+					</p>
+				</a>
+				<a href="blog.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-blog asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Blog
+					</p>
+				</a>
+				<a href="packages.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-cubes asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Packages
+					</p>
+				</a>
+				<a href="files-and-media.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-photo-film asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Files & Media
+					</p>
+				</a>
+				<a href="messages.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-regular fa-envelope asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Messages
+					</p>
+				</a>
+				<a href="settings.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-gear asidbox_icons_icon"></i>
+					</div>
+					<p class="asidbox_Link">
+						Settings
+					</p>
+				</a>
+				<div class="dropdownHolder">
+					<div class="asidbox asidbox-dropdown">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-gauge asidbox_icons_icon"></i>
+						</div>
+						<div class="asidbox_Link">
+							Career
+						</div>
+						<i class="fa-solid fa-chevron-right asidbox_icons_icon2"></i>
+					</div>
+					<ul class="aside-drpdwn-list">
+						<li class="aside-drpdwn-list__item">
+							<div class="aside-drpdwn-list__icone">
+								<img src="assets/images/aside/career/file_create_icon.svg" alt="" class="aside-drpdwn-list__icone-img dark-none">
+								<img src="assets/images/aside/career/file_create_icon-dark.svg" alt="" class="aside-drpdwn-list__icone-img d-none dark-show">
+							</div>
+							<a class="aside-drpdwn-list__link" href="career.html">Jobs</a>
+						</li>
+						<li class="aside-drpdwn-list__item">
+							<div class="aside-drpdwn-list__icone">
+								<img src="assets/images/aside/career/folder_create_icon.svg" alt="" class="aside-drpdwn-list__icone-img dark-none">
+								<img src="assets/images/aside/career/folder_create_icon-dark.svg" alt="" class="aside-drpdwn-list__icone-img d-none dark-show">
+							</div>
+							<a class="aside-drpdwn-list__link" href="categories.html"> Categories </a>
+						</li>
+						<li class="aside-drpdwn-list__item">
+							<div class="aside-drpdwn-list__icone">
+								<img src="assets/images/aside/career/Job.svg" alt="" class="aside-drpdwn-list__icone-img dark-none ">
+								<img src="assets/images/aside/career/job-dark.svg" alt="" class="aside-drpdwn-list__icone-img d-none dark-show">
+							</div>
+							<a class="aside-drpdwn-list__link" href="applications.html"> Applications  </a>
+						</li>
+					</ul>
+				</div>
+				<div class="asidbox_person mb-3">
+					<div class="asidbox_person_row flex items-center justify-between">
+						<div class="asidbox_personbox1">
+							<img src="assets/images/aas.png" alt="" class="asidbox_personbox1_img">
+						</div>
+						<div class="asidbox_personbox2">
+							<h6 class="asidbox_personbox2_name">
+								Admin
+							</h6>
+							<p class="asidbox_personbox2_type">Admin</p>
+						</div>
+					</div>
+					<div class="asidbox_person_row  flex items-center justify-center">
+						<div class="logout_button">  
+							<form method="POST" action="" x-data="">
+								<input type="hidden" name="_token" value="">
+                                <a href="#" class="navbar_profile_box_menu_link">
+									<div class="navbar_profile_box_menu_item_icone">
+										<i class="fa-solid fa-arrow-right-from-bracket"></i>
+									</div>
+									<h6 class="navbar_profile_box_menu_item_text navbar_profile_box_menu_item_text2">Log Out</h6>
+								</a>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="madeby flex items-center justify-center text-center">
+				<p class="madeby_text">Made <span class="madeby_text2 pb-2"> by </span>Skilled Tech</p>
+			</div>
+		</aside>
+		<!-- aside end -->
+		<main class="main">
+			<div class="dashboard_header">
+				<div class="navbar">
+					<button class="sidebar_btn">
+						<i class="fa-solid fa-bars-staggered sidebar_btn_icon"></i>
+					</button>
+					<div class="navbar_box1">
+						<p class="navbar_box_text">Hello Admin</p>
+					</div>
+					<div class="navbar_box2">
+						<div class="navbar_search_box">
+							<input type="text" placeholder="looking for" class="navbar_search_box_input">
+							<button type="submit" class="navbar_search_box_btn">
+								<i class="fa fa-search navbar_search_box_btn_icone"></i>
+							</button>
+						</div>
+						<div class="navbar_notifications_box flex items-center">
+							<div class="navbar_noti_box">
+								<div class="navbar_noti_box_counter">
+									5
+								</div>
+								<i class="fa-regular fa-envelope navbar_noti_box_icone"></i>
+								<div class="navbar_noti_box_details">
+									<div class="navbar_noti_box_details_for_hover"></div>
+									<div class="navbar_noti_box_details_header">
+										Message
+									</div>
+									<div class="navbar_noti_box_details_body">
+										<div class="navbar_noti_box_details_box unread">
+											<div class="navbar_noti_box_details_box_img_holder">
+												<img src="assets/images/profile.png" alt="" class="navbar_noti_box_details_box_img">
+											</div>
+											<div class="navbar_noti_box_details_box_content">
+												<h4 class="navbar_noti_box_details_box_name">Ahsan</h4>
+												<p class="navbar_noti_box_details_box_desc">
+													We send you the money
+												</p>
+											</div>
+										</div>
+										<div class="navbar_noti_box_details_box">
+											<div class="navbar_noti_box_details_box_img_holder">
+												<img src="assets/images/profile.png" alt="" class="navbar_noti_box_details_box_img">
+											</div>
+											<div class="navbar_noti_box_details_box_content">
+												<h4 class="navbar_noti_box_details_box_name">Ahsan</h4>
+												<p class="navbar_noti_box_details_box_desc">
+													We send you the money
+												</p>
+											</div>
+										</div>
+										<div class="navbar_noti_box_details_box">
+											<div class="navbar_noti_box_details_box_img_holder">
+												<img src="assets/images/profile.png" alt="" class="navbar_noti_box_details_box_img">
+											</div>
+											<div class="navbar_noti_box_details_box_content">
+												<h4 class="navbar_noti_box_details_box_name">Ahsan</h4>
+												<p class="navbar_noti_box_details_box_desc">
+													We send you the money
+												</p>
+											</div>
+										</div>
+										<div class="navbar_noti_box_details_box">
+											<div class="navbar_noti_box_details_box_img_holder">
+												<img src="assets/images/profile.png" alt="" class="navbar_noti_box_details_box_img">
+											</div>
+											<div class="navbar_noti_box_details_box_content">
+												<h4 class="navbar_noti_box_details_box_name">Ahsan</h4>
+												<p class="navbar_noti_box_details_box_desc">
+													We send you the money
+												</p>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+							<div class="navbar_noti_box">
+								<div class="navbar_noti_box_counter navbar_noti_box_counter2">
+									8
+								</div>
+								<i class="fa-regular fa-bell navbar_noti_box_icone"></i>
+								<div class="navbar_noti_box_details">
+									<div class="navbar_noti_box_details_for_hover"></div>
+									<div class="navbar_noti_box_details_header">
+										Notification
+									</div>
+									<div class="navbar_noti_box_details_body">
+										<div class="navbar_noti_box_no-notification">
+											<img src="assets/images/no-notification.png" class="navbar_noti_box_no-notification_img">
+										</div>
+										<h6 class="navbar_noti_box_no-notification_text">No Think Yet</h6>
+									</div>
+								</div>
+							</div>
+							<!-- profile button with dropdown -->
+							<div class="dropdown">
+								<div class="navbar_profile_box flex items-center dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" >
+									<div class="navbar_profile_box_img_holder">
+										<img src="assets/images/profile.png" alt="" class="navbar_profile_box_img">
+									</div>
+									<h6 class="navbar_profile_box_name">Muhammad</h6>
+								</div>
+								<ul class="dropdown-menu navbar_profile_box_menu" aria-labelledby="dropdownMenuLink">
+									<li class="navbar_profile_box_menu_item">
+										<a href="profile.html" class="navbar_profile_box_menu_link">
+											<div class="navbar_profile_box_menu_item_icone">
+												<i class="fa-regular fa-user navbar_profile_box_menu_item_icone_img"></i>
+											</div>
+											<h6 class="navbar_profile_box_menu_item_text">My Profile</h6>
+										</a>
+									</li>
+									<li class="navbar_profile_box_menu_item">
+										<a href="#" class="navbar_profile_box_menu_link">
+											<div class="navbar_profile_box_menu_item_icone">
+												<i class="fa fa-gear navbar_profile_box_menu_item_icone_img"></i>
+											</div>
+											<h6 class="navbar_profile_box_menu_item_text">Profile Setting</h6>
+										</a>
+									</li>
+									<li class="navbar_profile_box_menu_item">
+										<a href="#" class="navbar_profile_box_menu_link">
+											<div class="navbar_profile_box_menu_item_icone">
+												<i class="fa-solid fa-shield-halved navbar_profile_box_menu_item_icone_img"></i>
+											</div>
+											<h6 class="navbar_profile_box_menu_item_text">Action</h6>
+										</a>
+									</li>
+									<li class="navbar_profile_box_menu_item">
+										<a href="#" class="navbar_profile_box_menu_link">
+											<div class="navbar_profile_box_menu_item_icone">
+												<i class="fa-solid fa-arrow-right-from-bracket navbar_profile_box_menu_item_icone_img"></i>
+											</div>
+											<h6 class="navbar_profile_box_menu_item_text navbar_profile_box_menu_item_text2">Log Out</h6>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<!-- profile button with dropdown -->
+						</div>
+					</div>
+				</div>
+				<div class="navbar_search_box_mobile">
+					<input type="text" placeholder="search" class="navbar_search_box_mobile_input">
+				</div>
+				<div class="bottom_navbar">
+					<div class="bottom_navbar_left">
+						<div class="bottom_navbar_datebox flex items-center">
+							<i class="fa-solid fa-calendar-days bottom_navbar_datebox_icon"></i>
+							<h6 class="bottom_navbar_datebox_date">28, June</h6>
+						</div>
+						<div class="bottom_navbar_left_page flex items-center">
+							<div class="bottom_navbar_left_page_dot"></div>
+							<p class="bottom_navbar_left_page_name">Teams
+								<span class="amount-of-total d-inline-flex justify-center items-center rounded-circle ">10</span>
+							</p>
+						</div>
+					</div>
+					<div class="bottom_navbar_right">
+						<div class="language_toggle">
+							<div class="language_toggle_ar">
+								<img src="assets/images/ar.svg" class="language_toggle_ar_img dark-none">
+								<img src="assets/images/ar-dark.svg" class="language_toggle_ar_img d-none dark-show">
+							</div>
+							<div class="language_toggle_en">
+								<img src="assets/images/en.svg" class="language_toggle_ar_img dark-none">
+								<img src="assets/images/en-dark.svg" class="language_toggle_ar_img d-none dark-show">
+							</div>
+						</div>
+						<div class="theme_toggle">
+							<div class="theme_toggle_light">
+								<img src="assets/images/light.png" alt="" class="theme_toggle_img dark-none">
+								<img src="assets/images/light-dark.svg" alt="" class="theme_toggle_img d-none dark-show">
+							</div>
+							<div class="theme_toggle_dark">
+								<img src="assets/images/dark.png" alt="" class="theme_toggle_img dark-none">
+								<img src="assets/images/dark-dark.svg" alt="" class="theme_toggle_img d-none dark-show">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- dashboard_header end -->
+			<div class="main_body">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="card pd-0 card-slider">
+								<div class="card-header flex justify-between">
+									<div class="card-header__left flex items-center">
+										<div class="create-btn"  role="button" data-bs-toggle="modal" data-bs-target="#createteam">
+											<div class="create-btn-b1">
+												<i class="fa-solid fa-plus create-btn-b1__icn"></i>
+											</div>
+											<div class="create-btn-b2">Create New</div>
+										</div>
+										<div class="table_search flex items-center justify-center">
+											<input type="text" class="table_search_input" placeholder="Search">
+											<button class="table_search_btn flex items-center justify-center">
+												<i class="fa fa-magnifying-glass icon"></i>
+											</button>
+										</div>
+									</div>
+									<div class="card-header__right flex items-center">
+										<div class="table-view-btns-wrapper flex items-center">
+											<div class="table-view-btn table-view-btn--list flex items-center active">
+												<svg xmlns="http://www.w3.org/2000/svg" width="22" height="19" viewBox="0 0 22 19" class="table-list-btn__icn">
+													<g id="Group_124" data-name="Group 124" transform="translate(-1120 -181)">
+													<rect id="Rectangle_673" data-name="Rectangle 673" width="22" height="5" rx="1" transform="translate(1120 181)" fill="#d2d2d2"/>
+													<rect id="Rectangle_674" data-name="Rectangle 674" width="22" height="5" rx="1" transform="translate(1120 188)" fill="#d2d2d2"/>
+													<rect id="Rectangle_675" data-name="Rectangle 675" width="22" height="5" rx="1" transform="translate(1120 195)" fill="#d2d2d2"/>
+													</g>
+												</svg>
+											</div>
+											<div class="table-view-btn table-view-btn--grid flex items-center">
+												<svg xmlns="http://www.w3.org/2000/svg" width="22" height="19" viewBox="0 0 22 19" class="table-list-btn__icn">
+													<g id="Group_125" data-name="Group 125" transform="translate(-1154 -181)">
+													  <rect id="Rectangle_669" data-name="Rectangle 669" width="9" height="8" rx="1" transform="translate(1167 181)" fill="#f4f6f9"/>
+													  <rect id="Rectangle_670" data-name="Rectangle 670" width="9" height="8" rx="1" transform="translate(1154 181)" fill="#f4f6f9"/>
+													  <rect id="Rectangle_671" data-name="Rectangle 671" width="9" height="8" rx="1" transform="translate(1154 192)" fill="#f4f6f9"/>
+													  <rect id="Rectangle_672" data-name="Rectangle 672" width="9" height="8" rx="1" transform="translate(1167 192)" fill="#f4f6f9"/>
+													</g>
+												</svg>
+											</div>
+										</div>
+										<div class="table_card_filter flex items-center">
+											<p class="table_card_filter_text">Show</p>
+											<select name="" id="" class="form-select table_card_filter_select">
+												<option value="">All</option>
+												<option value="">All</option>
+												<option value="">All</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="card-body card-body-for-list">
+									<div class="table-responsive">
+										<table class="table card_table">
+											<thead>
+												<tr>
+													<th scope="col" class="tableHeading">ID</th>
+													<th scope="col" class="tableHeading">Name</th>
+													<th scope="col" class="tableHeading">Phone</th>
+													<th scope="col" class="tableHeading">Image</th>
+													<th scope="col" class="tableHeading">Date</th>
+													<th scope="col" class="tableHeading">Action</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td scope="col">1</td>
+													<td scope="col">
+														<div class="qa">
+															Ahsan
+														</div>
+													</td>
+													<td scope="col">
+														<div class="qa">
+															Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas totam facilis, voluptas iusto quam quaerat at aperiam aliquid vel minus numquam ipsam ea quibusdam? Voluptatem fuga illum iusto culpa quo?
+														</div>
+													</td>
+													<td scope="col">
+														<img src="assets/images/aas.png" alt="" class="table_data_img" />
+													</td>
+													<td scope="col">
+														12/10/2022
+													</td>
+													<td scope="col">
+														<div class="action_box flex items-center">
+															<div class="action_box1" role="button" data-bs-toggle="modal" data-bs-target="#viewteam">
+																<i class="fa-solid fa-eye icon action_box1_icon"></i>
+															</div>
+															<div class="action_box1 content_sidebar_edit_btn" role="button" data-bs-toggle="modal" data-bs-target="#editteam">
+																<i class="fa-solid fa-edit icon action_box1_icon"></i>
+															</div>
+															<div class="action_box1" role="button" data-bs-toggle="modal" data-bs-target="#delete">
+																<button>
+																	<i class="fa-regular fa-trash-can icon action_box1_icon"></i>
+																</button>
+															</div>
+														</div>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+								<div class="card-body card-body-for-grid d-none">
+									<div class="grid-card-wrapper">
+										<div class="grid-card">
+											<div class="grid-card__hdr">
+												<img src="assets/images/builder.png" alt="" class="grid-card__img">
+												<div class="grid-card-in-box">
+													<div class="grid-card-in_btn">
+														<i class="fa-solid fa-chevron-down"></i>
+													</div>
+													<div class="grid-card-in__btn-wrapr">
+														<div class="action_box flex items-center">
+															<div class="action_box1" role="button" data-bs-toggle="modal" data-bs-target="#viewteam">
+																<i class="fa-solid fa-eye icon action_box1_icon"></i>
+															</div>
+															<div class="action_box1 content_sidebar_edit_btn" role="button" data-bs-toggle="modal" data-bs-target="#editteam">
+																<i class="fa-solid fa-edit icon action_box1_icon"></i>
+															</div>
+															<div class="action_box1" role="button" data-bs-toggle="modal" data-bs-target="#delete">
+																<button>
+																	<i class="fa-regular fa-trash-can icon action_box1_icon"></i>
+																</button>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="grid-card__body">
+												<div class="flex items-center justify-between">
+													<h1 class="grid-card__body-hdng">Testimonial add</h1>
+													<div class="grid-card__body-tag">building</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="pagination">
+									<div class="pagination-btn active">1</div>
+									<div class="pagination-btn">2</div>
+									<div class="pagination-btn">3</div>
+									<div class="pagination-btn">...</div>
+									<div class="pagination-btn">15</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- main_body end -->
+		</main>
+	</div>
+	<!-- dashboard-wrapper -->
+</div>
+<!-- body-wrapper -->
+<div class="modal fade" id="createteam" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+	<div class="modal-dialog modal-xl my-100">
+		<div class="modal-content">
+            <div class="modal-body modal-body--pd-0 text-center">
+				<div class="myModal__hdr flex items-center justify-between">
+					<h1 class="myModal__hdr-hdng">New Member </h1>
+					<button type="button" class="modalClose" data-bs-dismiss="modal">
+						<i class="fa-solid fa-xmark modalClose_icon"></i>
+					</button>
+				</div>
+				<div class="myModal__body">
+					<div class="tabs-col-wrpr flex">
+						<div class="tab-col1">
+							<ul class="nav nav-tabs nav-tabs--seo" id="seotabteam1" role="tablist">
+								<li class="nav-item tab-item--seo" role="presentation">
+								  	<button class="nav-link active" id="general-tabteam1" data-bs-toggle="tab" data-bs-target="#generalteam1" type="button" role="tab" aria-controls="general-tab-pane" aria-selected="true">
+										<svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19">
+											<path id="_8725931_folder_info_icon" data-name="8725931_folder_info_icon" d="M12,13.5a1,1,0,0,0-1,1v2a1,1,0,0,0,2,0v-2A1,1,0,0,0,12,13.5Zm7-8H12.72l-.32-1a3,3,0,0,0-2.84-2H5a3,3,0,0,0-3,3v13a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V8.5A3,3,0,0,0,19,5.5Zm1,13a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V5.5a1,1,0,0,1,1-1H9.56a1,1,0,0,1,.95.68l.54,1.64A1,1,0,0,0,12,7.5h7a1,1,0,0,1,1,1Zm-7.29-7.71a1,1,0,0,0-1.09-.21.93.93,0,0,0-.33.21,1.05,1.05,0,0,0-.29.71,1,1,0,1,0,1.92-.38.93.93,0,0,0-.21-.33Z" transform="translate(-2 -2.5)" fill="#5e5e61"/>
+										</svg>
+										Basic Info
+									</button>
+								</li>
+								<li class="nav-item tab-item--seo" role="presentation">
+								  	<button class="nav-link" id="opengraph-tabteam1" data-bs-toggle="tab" data-bs-target="#opengraphteam1" type="button" role="tab" aria-controls="opengraph-tab-pane" aria-selected="false">
+										<svg xmlns="http://www.w3.org/2000/svg" width="16.562" height="18.93" viewBox="0 0 16.562 18.93">
+											<g id="_2318454_address_book_contact_contact_book_contacts_icon" data-name="2318454_address book_contact_contact book_contacts_icon" transform="translate(-106.8 -85.7)">
+											  <g id="Group_171" data-name="Group 171" transform="translate(107.589 85.7)">
+												<path id="Path_674" data-name="Path 674" d="M136.272,104.63H120.5v-3.942h1.573v2.363h12.62V87.279h-12.62v3.152H120.5V85.7h15.772Z" transform="translate(-120.5 -85.7)" fill="#5e5e61"/>
+											  </g>
+											  <g id="Group_172" data-name="Group 172" transform="translate(106.8 93.589)">
+												<rect id="Rectangle_751" data-name="Rectangle 751" width="2.368" height="1.579" transform="translate(0)" fill="#5e5e61"/>
+											  </g>
+											  <g id="Group_173" data-name="Group 173" transform="translate(106.8 97.531)">
+												<rect id="Rectangle_752" data-name="Rectangle 752" width="2.368" height="1.579" transform="translate(0 0)" fill="#5e5e61"/>
+											  </g>
+											  <g id="Group_174" data-name="Group 174" transform="translate(106.8 89.642)">
+												<rect id="Rectangle_753" data-name="Rectangle 753" width="2.368" height="1.579" transform="translate(0)" fill="#5e5e61"/>
+											  </g>
+											  <g id="Group_175" data-name="Group 175" transform="translate(107.589 95.952)">
+												<rect id="Rectangle_754" data-name="Rectangle 754" width="1.579" height="2.368" transform="translate(0 0)" fill="#5e5e61"/>
+											  </g>
+											  <g id="Group_176" data-name="Group 176" transform="translate(107.589 92.01)">
+												<rect id="Rectangle_755" data-name="Rectangle 755" width="1.579" height="2.368" transform="translate(0 0)" fill="#5e5e61"/>
+											  </g>
+											  <g id="Group_177" data-name="Group 177" transform="translate(112.315 90.425)">
+												<path id="Path_675" data-name="Path 675" d="M205.658,174.016a3.158,3.158,0,1,1,3.158-3.158A3.163,3.163,0,0,1,205.658,174.016Zm0-4.731a1.579,1.579,0,1,0,1.579,1.579A1.581,1.581,0,0,0,205.658,169.285Z" transform="translate(-202.5 -167.7)" fill="#5e5e61"/>
+											  </g>
+											  <g id="Group_178" data-name="Group 178" transform="translate(111.525 95.168)">
+												<path id="Path_676" data-name="Path 676" d="M196.695,253.942h-1.579a2.368,2.368,0,0,0-4.737,0H188.8a3.947,3.947,0,0,1,7.895,0Z" transform="translate(-188.8 -250)" fill="#5e5e61"/>
+											  </g>
+											</g>
+										  </svg>
+										Contact Info
+									</button>
+								</li>
+								<li class="nav-item tab-item--seo" role="presentation">
+									<button class="nav-link" id="smedia-tabteam1" data-bs-toggle="tab" data-bs-target="#smediateam1" type="button" role="tab" aria-controls="opengraph-tab-pane" aria-selected="false">
+										<svg xmlns="http://www.w3.org/2000/svg" width="20.776" height="19.693" viewBox="0 0 20.776 19.693">
+											<g id="_7088674_social_network_connection_link_friends_social_media_icon" data-name="7088674_social network_connection_link_friends_social media_icon" transform="translate(-18.54 -29.367)">
+											  	<path id="Path_672" data-name="Path 672" d="M36.246,42.928a3.062,3.062,0,0,0-2.6,1.46l-4.082-2.478a5.857,5.857,0,0,0-.286-6.1l3.163-2.353a2.44,2.44,0,1,0-.315-.43l-3.167,2.357a5.872,5.872,0,1,0,.327,6.985l4.115,2.5a3.066,3.066,0,1,0,2.847-1.935Zm-2.091-12.9a1.824,1.824,0,1,1-1.824,1.824,1.824,1.824,0,0,1,1.824-1.824ZM21.921,43.815V42.461a1.8,1.8,0,0,1,1.8-1.8H25.1a1.8,1.8,0,0,1,1.8,1.8v1.354A5.314,5.314,0,0,1,21.921,43.815Zm5.511-.323V42.461A2.337,2.337,0,0,0,25.1,40.127H23.722a2.337,2.337,0,0,0-2.334,2.334v1.031a5.34,5.34,0,1,1,6.046,0Zm8.813,5.043A2.537,2.537,0,1,1,38.783,46a2.537,2.537,0,0,1-2.537,2.537Z" fill="#5e5e61"/>
+											  	<path id="Path_673" data-name="Path 673" d="M113.632,163.21H112.8a1.4,1.4,0,0,0-1.394,1.395v1.542a1.4,1.4,0,0,0,1.394,1.394h.828a1.4,1.4,0,0,0,1.395-1.394V164.6A1.4,1.4,0,0,0,113.632,163.21Zm.862,2.937a.863.863,0,0,1-.862.862H112.8a.863.863,0,0,1-.861-.862V164.6a.862.862,0,0,1,.861-.861h.828a.862.862,0,0,1,.862.861Z" transform="translate(-88.808 -127.988)" fill="#5e5e61"/>
+											</g>
+										  </svg>
+										Social Media Info
+								  	</button>
+							  	</li>
+							</ul>
+						</div>
+						<div class="tab-col2">
+							<div class="tab-content" id="myTabContentteam1">
+								<div class="tab-pane fade show active" id="generalteam1" role="tabpanel" aria-labelledby="general-tab" tabindex="0">
+									<div class="row pb-5">
+										<div class="col-lg-6">
+											<input type="text" class="form-input w-100" placeholder="Name">
+											<input type="text" class="form-input w-100" placeholder="Experience">
+											<input type="text" class="form-input w-100" placeholder="Support">
+											<input type="text" class="form-input w-100" placeholder="Bio">
+										</div>
+										<div class="col-lg-6 team">
+											<input type="text" class="form-input w-100" placeholder="Position">
+											<input type="text" class="form-input w-100" placeholder="Complet Projects">
+											<input type="text" class="form-input w-100" placeholder="Languages">
+											<div class="file-upload-desc">
+												<svg xmlns="http://www.w3.org/2000/svg" width="19.981" height="15.987" viewBox="0 0 19.981 15.987">
+													<path id="cloud_upload" d="M18.42,8.22A7,7,0,0,0,5.06,10.11,4,4,0,0,0,6,18a1,1,0,1,0,0-2,2,2,0,0,1,0-4,1,1,0,0,0,1-1,5,5,0,0,1,9.73-1.61,1,1,0,0,0,.78.67,3,3,0,0,1,.24,5.84,1,1,0,1,0,.5,1.94,5,5,0,0,0,.17-9.62Zm-5.71,2.07a1.034,1.034,0,0,0-1.42,0l-3,3a1,1,0,0,0,1.42,1.42L11,13.41V19a1,1,0,0,0,2,0V13.41l1.29,1.3a1,1,0,1,0,1.42-1.42Z" transform="translate(-1.991 -4.013)" fill="#6563ff"/>
+												</svg>
+												<p class="file-upload-desc__text">Upload Files & Media</p>
+												<div class="file-upload-desc__btn">
+													<svg id="Component_238_3" data-name="Component 238 – 3" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+														<circle id="Ellipse_164" data-name="Ellipse 164" cx="11.5" cy="11.5" r="11.5" fill="#e8e8ff"/>
+														<path id="_9040435_info_lg_icon" data-name="9040435_info_lg_icon" d="M9.708,6.075l-3.024.379-.108.5.6.108c.387.093.464.232.38.619L6.576,12.26C6.321,13.443,6.716,14,7.643,14a2.729,2.729,0,0,0,1.933-.789l.116-.549a1.464,1.464,0,0,1-.9.325c-.363,0-.494-.255-.4-.7L9.708,6.075ZM9.8,3.32A1.32,1.32,0,1,1,8.479,2,1.32,1.32,0,0,1,9.8,3.32Z" transform="translate(3.35 3.5)"/>
+													</svg>
+													<div class="file-desBox">
+														<div class="file-desBox__text">Videos must be less than <span class="bold mid-black"> 30 MB </span></div>
+														<div class="file-desBox__text">and image must be less than <span class="bold mid-black"> 2 MB </span></div>
+													</div>
+												</div>
+											</div>
+											<p class="file-upload__hdng">Upload picture</p>
+											<div class="">
+												<div x-data="dataFileDnD()" class="">
+													<div x-ref="dnd" class="relative flex flex-col dropablebox rounded cursor-pointer">
+														<input accept="*" type="file" multiple class="absolute inset-0 z-50 w-full h-full p-0 m-0 outline-none opacity-0 cursor-pointer"
+															@change="addFiles($event)"
+															@dragover="$refs.dnd.classList.add('border-blue-400'); $refs.dnd.classList.add('ring-4'); $refs.dnd.classList.add('ring-inset');"
+															@dragleave="$refs.dnd.classList.remove('border-blue-400'); $refs.dnd.classList.remove('ring-4'); $refs.dnd.classList.remove('ring-inset');"
+															@drop="$refs.dnd.classList.remove('border-blue-400'); $refs.dnd.classList.remove('ring-4'); $refs.dnd.classList.remove('ring-inset');"
+															title="" />
+												
+														<div class="flex flex-col items-center justify-center py-10 text-center">
+															<svg xmlns="http://www.w3.org/2000/svg" class="mb-2" width="22.762" height="17.704" viewBox="0 0 22.762 17.704">
+																<path id="_8664907_folder_open_document_icon" data-name="8664907_folder_open_document_icon" d="M22.628,41.417,18.834,49a1.274,1.274,0,0,1-1.166.7H2.529A2.529,2.529,0,0,1,0,47.175V34.529A2.529,2.529,0,0,1,2.529,32H7.172a2.53,2.53,0,0,1,1.789.741L10.9,34.529h5.536a2.529,2.529,0,0,1,2.529,2.529v1.265h-1.9V37.058a.633.633,0,0,0-.632-.632H10.116l-2.5-2.344a.622.622,0,0,0-.447-.185H2.529a.633.633,0,0,0-.632.632V45.91l2.812-5.623a1.264,1.264,0,0,1,1.132-.7H21.5A1.265,1.265,0,0,1,22.628,41.417Z" transform="translate(0 -32)" fill="#6563ff"/>
+															  </svg>
+															<p class="m-0 text-[#262627] dragable-text">Click <span class="bold text-[#6563FF]"> or </span> drag & drop</p>
+														</div>
+													</div>
+													<div class="progress">
+														<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+													</div>
+													<template x-if="files.length > 0">
+														<div class="dragable-show-wrpr" @drop.prevent="drop($event)"
+															@dragover.prevent="$event.dataTransfer.dropEffect = 'move'">
+															<template x-for="(_, index) in Array.from({ length: files.length })">
+																<div class="relative flex flex-col items-center overflow-hidden text-center bg-gray-100 border rounded cursor-move select-none dragable-show-wrpr-box"
+																	 @dragstart="dragstart($event)" @dragend="fileDragging = null"
+																	:class="{'border-blue-600': fileDragging == index}" draggable="true" :data-index="index">
+																	<button class="absolute top-0 right-0 z-50 p-1 bg-white rounded-bl focus:outline-none" type="button" @click="remove(index)">
+																		<svg class="w-4 h-4 text-gray-700" xmlns="http://www.w3.org/2000/svg" fill="none"
+																			viewBox="0 0 24 24" stroke="currentColor">
+																			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+																				d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+																		</svg>
+																	</button>
+																	<template x-if="files[index].type.includes('audio/')">
+																		<svg class="absolute w-12 h-12 text-gray-400 transform top-1/2 -translate-y-2/3"
+																			xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+																			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+																				d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+																		</svg>
+																	</template>
+																	<template x-if="files[index].type.includes('application/') || files[index].type === ''">
+																		<svg class="absolute w-12 h-12 text-gray-400 transform top-1/2 -translate-y-2/3"
+																			xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+																			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+																				d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+																		</svg>
+																	</template>
+																	<template x-if="files[index].type.includes('image/')">
+																		<img class="absolute inset-0 z-0 object-cover w-full h-full border-4 border-white preview"
+																			x-bind:src="loadFile(files[index])" />
+																	</template>
+																	<template x-if="files[index].type.includes('video/')">
+																		<video
+																			class="absolute inset-0 object-cover w-full h-full border-4 border-white pointer-events-none preview">
+																			<fileDragging x-bind:src="loadFile(files[index])" type="video/mp4">
+																		</video>
+																	</template>
+												
+																	<div class="">
+																		<span class="w-full font-bold text-gray-900 truncate"
+																			x-text="files[index].name">Loading</span>
+																		<span class="text-xs text-gray-900" x-text="humanFileSize(files[index].size)">...</span>
+																	</div>
+												
+																	<div class="" @dragenter="dragenter($event)"
+																		@dragleave="fileDropping = null"
+																		:class="{'bg-blue-200 bg-opacity-80': fileDropping == index && fileDragging != index} ">
+																	</div>
+																</div>
+															</template>
+														</div>
+													</template>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="opengraphteam1" role="tabpanel" aria-labelledby="opengraph-tab" tabindex="0">
+									<div class="row pb-5">
+										<div class="col-md-6">
+											<input type="text" class="form-input w-100" placeholder="Email">
+											<input type="text" class="form-input w-100" placeholder="Address">
+										</div>
+										<div class="col-md-6">
+											<input type="text" class="form-input w-100" placeholder="Phone">
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="smediateam1" role="tabpanel" aria-labelledby="smedia-tab" tabindex="0">
+									<div class="row pb-5">
+										<div class="col-md-6">
+											<div class="sm-list-wrp  flex justify-between items-center">
+												<div class="sm-show">
+													<i class="fa-brands fa-facebook-f"></i>
+												</div>
+												<div class="form-input-sm">
+													<input type="text" class="form-input w-100 mb-0" placeholder="username">
+													<span class="form-input-sm-name">Facebook</span>
+												</div>
+											</div>
+											<div class="sm-list-wrp  flex justify-between items-center">
+												<div class="sm-show">
+													<i class="fa-brands fa-linkedin-in"></i>
+												</div>
+												<div class="form-input-sm">
+													<input type="text" class="form-input w-100 mb-0" placeholder="username">
+													<span class="form-input-sm-name">Linkedin</span>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="sm-list-wrp  flex justify-between items-center">
+												<div class="sm-show">
+													<i class="fa-brands fa-twitter"></i>
+												</div>
+												<div class="form-input-sm">
+													<input type="text" class="form-input w-100 mb-0" placeholder="username">
+													<span class="form-input-sm-name">Twitter</span>
+												</div>
+											</div>
+											<div class="sm-list-wrp  flex justify-between items-center">
+												<div class="sm-show">
+													<i class="fa-brands fa-instagram"></i>
+												</div>
+												<div class="form-input-sm">
+													<input type="text" class="form-input w-100 mb-0" placeholder="username">
+													<span class="form-input-sm-name">Instagram</span>
+												</div>
+											</div>
+											<div class="form-btn create-newsm-btn gap-2 mt-0">
+												<i class="fa-solid fa-plus"></i> Create New
+											</div>
+											<div class="create-newsm mt-3">
+												<input type="text" class="form-input w-100" placeholder="username">
+												<div class="file-upload-desc">
+													<svg xmlns="http://www.w3.org/2000/svg" width="19.981" height="15.987" viewBox="0 0 19.981 15.987">
+														<path id="cloud_upload" d="M18.42,8.22A7,7,0,0,0,5.06,10.11,4,4,0,0,0,6,18a1,1,0,1,0,0-2,2,2,0,0,1,0-4,1,1,0,0,0,1-1,5,5,0,0,1,9.73-1.61,1,1,0,0,0,.78.67,3,3,0,0,1,.24,5.84,1,1,0,1,0,.5,1.94,5,5,0,0,0,.17-9.62Zm-5.71,2.07a1.034,1.034,0,0,0-1.42,0l-3,3a1,1,0,0,0,1.42,1.42L11,13.41V19a1,1,0,0,0,2,0V13.41l1.29,1.3a1,1,0,1,0,1.42-1.42Z" transform="translate(-1.991 -4.013)" fill="#6563ff"/>
+													</svg>
+													<p class="file-upload-desc__text">Upload Files & Media</p>
+													<div class="file-upload-desc__btn">
+														<svg id="Component_238_3" data-name="Component 238 – 3" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+															<circle id="Ellipse_164" data-name="Ellipse 164" cx="11.5" cy="11.5" r="11.5" fill="#e8e8ff"/>
+															<path id="_9040435_info_lg_icon" data-name="9040435_info_lg_icon" d="M9.708,6.075l-3.024.379-.108.5.6.108c.387.093.464.232.38.619L6.576,12.26C6.321,13.443,6.716,14,7.643,14a2.729,2.729,0,0,0,1.933-.789l.116-.549a1.464,1.464,0,0,1-.9.325c-.363,0-.494-.255-.4-.7L9.708,6.075ZM9.8,3.32A1.32,1.32,0,1,1,8.479,2,1.32,1.32,0,0,1,9.8,3.32Z" transform="translate(3.35 3.5)"/>
+														</svg>
+														<div class="file-desBox">
+															<div class="file-desBox__text">Videos must be less than <span class="bold mid-black"> 30 MB </span></div>
+															<div class="file-desBox__text">and image must be less than <span class="bold mid-black"> 2 MB </span></div>
+														</div>
+													</div>
+												</div>
+												<p class="file-upload__hdng">Upload picture</p>
+												<div class="">
+													<div x-data="dataFileDnD()" class="">
+														<div x-ref="dnd" class="relative flex flex-col dropablebox rounded cursor-pointer">
+															<input accept="*" type="file" multiple class="absolute inset-0 z-50 w-full h-full p-0 m-0 outline-none opacity-0 cursor-pointer"
+																@change="addFiles($event)"
+																@dragover="$refs.dnd.classList.add('border-blue-400'); $refs.dnd.classList.add('ring-4'); $refs.dnd.classList.add('ring-inset');"
+																@dragleave="$refs.dnd.classList.remove('border-blue-400'); $refs.dnd.classList.remove('ring-4'); $refs.dnd.classList.remove('ring-inset');"
+																@drop="$refs.dnd.classList.remove('border-blue-400'); $refs.dnd.classList.remove('ring-4'); $refs.dnd.classList.remove('ring-inset');"
+																title="" />
+													
+															<div class="flex flex-col items-center justify-center py-10 text-center">
+																<svg xmlns="http://www.w3.org/2000/svg" class="mb-2" width="22.762" height="17.704" viewBox="0 0 22.762 17.704">
+																	<path id="_8664907_folder_open_document_icon" data-name="8664907_folder_open_document_icon" d="M22.628,41.417,18.834,49a1.274,1.274,0,0,1-1.166.7H2.529A2.529,2.529,0,0,1,0,47.175V34.529A2.529,2.529,0,0,1,2.529,32H7.172a2.53,2.53,0,0,1,1.789.741L10.9,34.529h5.536a2.529,2.529,0,0,1,2.529,2.529v1.265h-1.9V37.058a.633.633,0,0,0-.632-.632H10.116l-2.5-2.344a.622.622,0,0,0-.447-.185H2.529a.633.633,0,0,0-.632.632V45.91l2.812-5.623a1.264,1.264,0,0,1,1.132-.7H21.5A1.265,1.265,0,0,1,22.628,41.417Z" transform="translate(0 -32)" fill="#6563ff"/>
+																</svg>
+																<p class="m-0 text-[#262627] dragable-text">Click <span class="bold text-[#6563FF]"> or </span> drag & drop</p>
+															</div>
+														</div>
+														<div class="progress">
+															<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+														</div>
+														<template x-if="files.length > 0">
+															<div class="dragable-show-wrpr" @drop.prevent="drop($event)"
+																@dragover.prevent="$event.dataTransfer.dropEffect = 'move'">
+																<template x-for="(_, index) in Array.from({ length: files.length })">
+																	<div class="relative flex flex-col items-center overflow-hidden text-center bg-gray-100 border rounded cursor-move select-none dragable-show-wrpr-box"
+																		@dragstart="dragstart($event)" @dragend="fileDragging = null"
+																		:class="{'border-blue-600': fileDragging == index}" draggable="true" :data-index="index">
+																		<button class="absolute top-0 right-0 z-50 p-1 bg-white rounded-bl focus:outline-none" type="button" @click="remove(index)">
+																			<svg class="w-4 h-4 text-gray-700" xmlns="http://www.w3.org/2000/svg" fill="none"
+																				viewBox="0 0 24 24" stroke="currentColor">
+																				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+																					d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+																			</svg>
+																		</button>
+																		<template x-if="files[index].type.includes('audio/')">
+																			<svg class="absolute w-12 h-12 text-gray-400 transform top-1/2 -translate-y-2/3"
+																				xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+																				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+																					d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+																			</svg>
+																		</template>
+																		<template x-if="files[index].type.includes('application/') || files[index].type === ''">
+																			<svg class="absolute w-12 h-12 text-gray-400 transform top-1/2 -translate-y-2/3"
+																				xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+																				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+																					d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+																			</svg>
+																		</template>
+																		<template x-if="files[index].type.includes('image/')">
+																			<img class="absolute inset-0 z-0 object-cover w-full h-full border-4 border-white preview"
+																				x-bind:src="loadFile(files[index])" />
+																		</template>
+																		<template x-if="files[index].type.includes('video/')">
+																			<video
+																				class="absolute inset-0 object-cover w-full h-full border-4 border-white pointer-events-none preview">
+																				<fileDragging x-bind:src="loadFile(files[index])" type="video/mp4">
+																			</video>
+																		</template>
+													
+																		<div class="">
+																			<span class="w-full font-bold text-gray-900 truncate"
+																				x-text="files[index].name">Loading</span>
+																			<span class="text-xs text-gray-900" x-text="humanFileSize(files[index].size)">...</span>
+																		</div>
+													
+																		<div class="" @dragenter="dragenter($event)"
+																			@dragleave="fileDropping = null"
+																			:class="{'bg-blue-200 bg-opacity-80': fileDropping == index && fileDragging != index} ">
+																		</div>
+																	</div>
+																</template>
+															</div>
+														</template>
+													</div>
+												</div>
+												<button type="submit" class="form-btn form-btn2">
+													Save
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="myModal__footer">
+					<div class="myModal__footer-btn_wrapper">
+						<div class="myModal__footer-btn myModal__footer-btn1" role="button" data-bs-toggle="modal" data-bs-target="#createAbout">
+							Cancel
+						</div>
+						<div class="myModal__footer-btn">
+							Save
+						</div>
+					</div>
+				</div>
+            </div>
+		</div>
+	</div>
+</div>
+<!-- create team end -->
+<div class="modal fade" id="editteam" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+	<div class="modal-dialog modal-xl my-100">
+		<div class="modal-content">
+            <div class="modal-body modal-body--pd-0 text-center">
+				<div class="myModal__hdr flex items-center justify-between">
+					<h1 class="myModal__hdr-hdng">Update Member </h1>
+					<button type="button" class="modalClose" data-bs-dismiss="modal">
+						<i class="fa-solid fa-xmark modalClose_icon"></i>
+					</button>
+				</div>
+				<div class="myModal__body">
+					<div class="tabs-col-wrpr flex">
+						<div class="tab-col1">
+							<ul class="nav nav-tabs nav-tabs--seo" id="seotabteam" role="tablist">
+								<li class="nav-item tab-item--seo" role="presentation">
+								  	<button class="nav-link active" id="general-tabteam" data-bs-toggle="tab" data-bs-target="#generalteam" type="button" role="tab" aria-controls="general-tab-pane" aria-selected="true">
+										<svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19">
+											<path id="_8725931_folder_info_icon" data-name="8725931_folder_info_icon" d="M12,13.5a1,1,0,0,0-1,1v2a1,1,0,0,0,2,0v-2A1,1,0,0,0,12,13.5Zm7-8H12.72l-.32-1a3,3,0,0,0-2.84-2H5a3,3,0,0,0-3,3v13a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V8.5A3,3,0,0,0,19,5.5Zm1,13a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V5.5a1,1,0,0,1,1-1H9.56a1,1,0,0,1,.95.68l.54,1.64A1,1,0,0,0,12,7.5h7a1,1,0,0,1,1,1Zm-7.29-7.71a1,1,0,0,0-1.09-.21.93.93,0,0,0-.33.21,1.05,1.05,0,0,0-.29.71,1,1,0,1,0,1.92-.38.93.93,0,0,0-.21-.33Z" transform="translate(-2 -2.5)" fill="#5e5e61"/>
+										</svg>
+										Basic Info
+									</button>
+								</li>
+								<li class="nav-item tab-item--seo" role="presentation">
+								  	<button class="nav-link" id="opengraph-tabteam" data-bs-toggle="tab" data-bs-target="#opengraphteam" type="button" role="tab" aria-controls="opengraph-tab-pane" aria-selected="false">
+										<svg xmlns="http://www.w3.org/2000/svg" width="16.562" height="18.93" viewBox="0 0 16.562 18.93">
+											<g id="_2318454_address_book_contact_contact_book_contacts_icon" data-name="2318454_address book_contact_contact book_contacts_icon" transform="translate(-106.8 -85.7)">
+											  <g id="Group_171" data-name="Group 171" transform="translate(107.589 85.7)">
+												<path id="Path_674" data-name="Path 674" d="M136.272,104.63H120.5v-3.942h1.573v2.363h12.62V87.279h-12.62v3.152H120.5V85.7h15.772Z" transform="translate(-120.5 -85.7)" fill="#5e5e61"/>
+											  </g>
+											  <g id="Group_172" data-name="Group 172" transform="translate(106.8 93.589)">
+												<rect id="Rectangle_751" data-name="Rectangle 751" width="2.368" height="1.579" transform="translate(0)" fill="#5e5e61"/>
+											  </g>
+											  <g id="Group_173" data-name="Group 173" transform="translate(106.8 97.531)">
+												<rect id="Rectangle_752" data-name="Rectangle 752" width="2.368" height="1.579" transform="translate(0 0)" fill="#5e5e61"/>
+											  </g>
+											  <g id="Group_174" data-name="Group 174" transform="translate(106.8 89.642)">
+												<rect id="Rectangle_753" data-name="Rectangle 753" width="2.368" height="1.579" transform="translate(0)" fill="#5e5e61"/>
+											  </g>
+											  <g id="Group_175" data-name="Group 175" transform="translate(107.589 95.952)">
+												<rect id="Rectangle_754" data-name="Rectangle 754" width="1.579" height="2.368" transform="translate(0 0)" fill="#5e5e61"/>
+											  </g>
+											  <g id="Group_176" data-name="Group 176" transform="translate(107.589 92.01)">
+												<rect id="Rectangle_755" data-name="Rectangle 755" width="1.579" height="2.368" transform="translate(0 0)" fill="#5e5e61"/>
+											  </g>
+											  <g id="Group_177" data-name="Group 177" transform="translate(112.315 90.425)">
+												<path id="Path_675" data-name="Path 675" d="M205.658,174.016a3.158,3.158,0,1,1,3.158-3.158A3.163,3.163,0,0,1,205.658,174.016Zm0-4.731a1.579,1.579,0,1,0,1.579,1.579A1.581,1.581,0,0,0,205.658,169.285Z" transform="translate(-202.5 -167.7)" fill="#5e5e61"/>
+											  </g>
+											  <g id="Group_178" data-name="Group 178" transform="translate(111.525 95.168)">
+												<path id="Path_676" data-name="Path 676" d="M196.695,253.942h-1.579a2.368,2.368,0,0,0-4.737,0H188.8a3.947,3.947,0,0,1,7.895,0Z" transform="translate(-188.8 -250)" fill="#5e5e61"/>
+											  </g>
+											</g>
+										  </svg>
+										Contact Info
+									</button>
+								</li>
+								<li class="nav-item tab-item--seo" role="presentation">
+									<button class="nav-link" id="smedia-tabteam" data-bs-toggle="tab" data-bs-target="#smediateam" type="button" role="tab" aria-controls="opengraph-tab-pane" aria-selected="false">
+										<svg xmlns="http://www.w3.org/2000/svg" width="20.776" height="19.693" viewBox="0 0 20.776 19.693">
+											<g id="_7088674_social_network_connection_link_friends_social_media_icon" data-name="7088674_social network_connection_link_friends_social media_icon" transform="translate(-18.54 -29.367)">
+											  	<path id="Path_672" data-name="Path 672" d="M36.246,42.928a3.062,3.062,0,0,0-2.6,1.46l-4.082-2.478a5.857,5.857,0,0,0-.286-6.1l3.163-2.353a2.44,2.44,0,1,0-.315-.43l-3.167,2.357a5.872,5.872,0,1,0,.327,6.985l4.115,2.5a3.066,3.066,0,1,0,2.847-1.935Zm-2.091-12.9a1.824,1.824,0,1,1-1.824,1.824,1.824,1.824,0,0,1,1.824-1.824ZM21.921,43.815V42.461a1.8,1.8,0,0,1,1.8-1.8H25.1a1.8,1.8,0,0,1,1.8,1.8v1.354A5.314,5.314,0,0,1,21.921,43.815Zm5.511-.323V42.461A2.337,2.337,0,0,0,25.1,40.127H23.722a2.337,2.337,0,0,0-2.334,2.334v1.031a5.34,5.34,0,1,1,6.046,0Zm8.813,5.043A2.537,2.537,0,1,1,38.783,46a2.537,2.537,0,0,1-2.537,2.537Z" fill="#5e5e61"/>
+											  	<path id="Path_673" data-name="Path 673" d="M113.632,163.21H112.8a1.4,1.4,0,0,0-1.394,1.395v1.542a1.4,1.4,0,0,0,1.394,1.394h.828a1.4,1.4,0,0,0,1.395-1.394V164.6A1.4,1.4,0,0,0,113.632,163.21Zm.862,2.937a.863.863,0,0,1-.862.862H112.8a.863.863,0,0,1-.861-.862V164.6a.862.862,0,0,1,.861-.861h.828a.862.862,0,0,1,.862.861Z" transform="translate(-88.808 -127.988)" fill="#5e5e61"/>
+											</g>
+										  </svg>
+										Social Media Info
+								  	</button>
+							  	</li>
+							</ul>
+						</div>
+						<div class="tab-col2">
+							<div class="tab-content" id="myTabContent">
+								<div class="tab-pane fade show active" id="generalteam" role="tabpanel" aria-labelledby="general-tab" tabindex="0">
+									<div class="row pb-5">
+										<div class="col-lg-6">
+											<input type="text" class="form-input w-100" placeholder="Name">
+											<input type="text" class="form-input w-100" placeholder="Experience">
+											<input type="text" class="form-input w-100" placeholder="Support">
+											<input type="text" class="form-input w-100" placeholder="Bio">
+										</div>
+										<div class="col-lg-6 team">
+											<input type="text" class="form-input w-100" placeholder="Position">
+											<input type="text" class="form-input w-100" placeholder="Complet Projects">
+											<input type="text" class="form-input w-100" placeholder="Languages">
+											<div class="file-upload-desc">
+												<svg xmlns="http://www.w3.org/2000/svg" width="19.981" height="15.987" viewBox="0 0 19.981 15.987">
+													<path id="cloud_upload" d="M18.42,8.22A7,7,0,0,0,5.06,10.11,4,4,0,0,0,6,18a1,1,0,1,0,0-2,2,2,0,0,1,0-4,1,1,0,0,0,1-1,5,5,0,0,1,9.73-1.61,1,1,0,0,0,.78.67,3,3,0,0,1,.24,5.84,1,1,0,1,0,.5,1.94,5,5,0,0,0,.17-9.62Zm-5.71,2.07a1.034,1.034,0,0,0-1.42,0l-3,3a1,1,0,0,0,1.42,1.42L11,13.41V19a1,1,0,0,0,2,0V13.41l1.29,1.3a1,1,0,1,0,1.42-1.42Z" transform="translate(-1.991 -4.013)" fill="#6563ff"/>
+												</svg>
+												<p class="file-upload-desc__text">Upload Files & Media</p>
+												<div class="file-upload-desc__btn">
+													<svg id="Component_238_3" data-name="Component 238 – 3" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+														<circle id="Ellipse_164" data-name="Ellipse 164" cx="11.5" cy="11.5" r="11.5" fill="#e8e8ff"/>
+														<path id="_9040435_info_lg_icon" data-name="9040435_info_lg_icon" d="M9.708,6.075l-3.024.379-.108.5.6.108c.387.093.464.232.38.619L6.576,12.26C6.321,13.443,6.716,14,7.643,14a2.729,2.729,0,0,0,1.933-.789l.116-.549a1.464,1.464,0,0,1-.9.325c-.363,0-.494-.255-.4-.7L9.708,6.075ZM9.8,3.32A1.32,1.32,0,1,1,8.479,2,1.32,1.32,0,0,1,9.8,3.32Z" transform="translate(3.35 3.5)"/>
+													</svg>
+													<div class="file-desBox">
+														<div class="file-desBox__text">Videos must be less than <span class="bold mid-black"> 30 MB </span></div>
+														<div class="file-desBox__text">and image must be less than <span class="bold mid-black"> 2 MB </span></div>
+													</div>
+												</div>
+											</div>
+											<p class="file-upload__hdng">Upload picture</p>
+											<div class="">
+												<div x-data="dataFileDnD()" class="">
+													<div x-ref="dnd" class="relative flex flex-col dropablebox rounded cursor-pointer">
+														<input accept="*" type="file" multiple class="absolute inset-0 z-50 w-full h-full p-0 m-0 outline-none opacity-0 cursor-pointer"
+															@change="addFiles($event)"
+															@dragover="$refs.dnd.classList.add('border-blue-400'); $refs.dnd.classList.add('ring-4'); $refs.dnd.classList.add('ring-inset');"
+															@dragleave="$refs.dnd.classList.remove('border-blue-400'); $refs.dnd.classList.remove('ring-4'); $refs.dnd.classList.remove('ring-inset');"
+															@drop="$refs.dnd.classList.remove('border-blue-400'); $refs.dnd.classList.remove('ring-4'); $refs.dnd.classList.remove('ring-inset');"
+															title="" />
+												
+														<div class="flex flex-col items-center justify-center py-10 text-center">
+															<svg xmlns="http://www.w3.org/2000/svg" class="mb-2" width="22.762" height="17.704" viewBox="0 0 22.762 17.704">
+																<path id="_8664907_folder_open_document_icon" data-name="8664907_folder_open_document_icon" d="M22.628,41.417,18.834,49a1.274,1.274,0,0,1-1.166.7H2.529A2.529,2.529,0,0,1,0,47.175V34.529A2.529,2.529,0,0,1,2.529,32H7.172a2.53,2.53,0,0,1,1.789.741L10.9,34.529h5.536a2.529,2.529,0,0,1,2.529,2.529v1.265h-1.9V37.058a.633.633,0,0,0-.632-.632H10.116l-2.5-2.344a.622.622,0,0,0-.447-.185H2.529a.633.633,0,0,0-.632.632V45.91l2.812-5.623a1.264,1.264,0,0,1,1.132-.7H21.5A1.265,1.265,0,0,1,22.628,41.417Z" transform="translate(0 -32)" fill="#6563ff"/>
+															  </svg>
+															<p class="m-0 text-[#262627] dragable-text">Click <span class="bold text-[#6563FF]"> or </span> drag & drop</p>
+														</div>
+													</div>
+													<div class="progress">
+														<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+													</div>
+													<template x-if="files.length > 0">
+														<div class="dragable-show-wrpr" @drop.prevent="drop($event)"
+															@dragover.prevent="$event.dataTransfer.dropEffect = 'move'">
+															<template x-for="(_, index) in Array.from({ length: files.length })">
+																<div class="relative flex flex-col items-center overflow-hidden text-center bg-gray-100 border rounded cursor-move select-none dragable-show-wrpr-box"
+																	 @dragstart="dragstart($event)" @dragend="fileDragging = null"
+																	:class="{'border-blue-600': fileDragging == index}" draggable="true" :data-index="index">
+																	<button class="absolute top-0 right-0 z-50 p-1 bg-white rounded-bl focus:outline-none" type="button" @click="remove(index)">
+																		<svg class="w-4 h-4 text-gray-700" xmlns="http://www.w3.org/2000/svg" fill="none"
+																			viewBox="0 0 24 24" stroke="currentColor">
+																			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+																				d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+																		</svg>
+																	</button>
+																	<template x-if="files[index].type.includes('audio/')">
+																		<svg class="absolute w-12 h-12 text-gray-400 transform top-1/2 -translate-y-2/3"
+																			xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+																			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+																				d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+																		</svg>
+																	</template>
+																	<template x-if="files[index].type.includes('application/') || files[index].type === ''">
+																		<svg class="absolute w-12 h-12 text-gray-400 transform top-1/2 -translate-y-2/3"
+																			xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+																			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+																				d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+																		</svg>
+																	</template>
+																	<template x-if="files[index].type.includes('image/')">
+																		<img class="absolute inset-0 z-0 object-cover w-full h-full border-4 border-white preview"
+																			x-bind:src="loadFile(files[index])" />
+																	</template>
+																	<template x-if="files[index].type.includes('video/')">
+																		<video
+																			class="absolute inset-0 object-cover w-full h-full border-4 border-white pointer-events-none preview">
+																			<fileDragging x-bind:src="loadFile(files[index])" type="video/mp4">
+																		</video>
+																	</template>
+												
+																	<div class="">
+																		<span class="w-full font-bold text-gray-900 truncate"
+																			x-text="files[index].name">Loading</span>
+																		<span class="text-xs text-gray-900" x-text="humanFileSize(files[index].size)">...</span>
+																	</div>
+												
+																	<div class="" @dragenter="dragenter($event)"
+																		@dragleave="fileDropping = null"
+																		:class="{'bg-blue-200 bg-opacity-80': fileDropping == index && fileDragging != index} ">
+																	</div>
+																</div>
+															</template>
+														</div>
+													</template>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="opengraphteam" role="tabpanel" aria-labelledby="opengraph-tab" tabindex="0">
+									<div class="row pb-5">
+										<div class="col-md-6">
+											<input type="text" class="form-input w-100" placeholder="Email">
+											<input type="text" class="form-input w-100" placeholder="Address">
+										</div>
+										<div class="col-md-6">
+											<input type="text" class="form-input w-100" placeholder="Phone">
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="smediateam" role="tabpanel" aria-labelledby="smedia-tab" tabindex="0">
+									<div class="row pb-5">
+										<div class="col-md-6">
+											<div class="sm-list-wrp  flex justify-between items-center">
+												<div class="sm-show">
+													<i class="fa-brands fa-facebook-f"></i>
+												</div>
+												<div class="form-input-sm">
+													<input type="text" class="form-input w-100 mb-0" placeholder="username">
+													<span class="form-input-sm-name">Facebook</span>
+												</div>
+											</div>
+											<div class="sm-list-wrp  flex justify-between items-center">
+												<div class="sm-show">
+													<i class="fa-brands fa-linkedin-in"></i>
+												</div>
+												<div class="form-input-sm">
+													<input type="text" class="form-input w-100 mb-0" placeholder="username">
+													<span class="form-input-sm-name">Linkedin</span>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="sm-list-wrp  flex justify-between items-center">
+												<div class="sm-show">
+													<i class="fa-brands fa-twitter"></i>
+												</div>
+												<div class="form-input-sm">
+													<input type="text" class="form-input w-100 mb-0" placeholder="username">
+													<span class="form-input-sm-name">Twitter</span>
+												</div>
+											</div>
+											<div class="sm-list-wrp  flex justify-between items-center">
+												<div class="sm-show">
+													<i class="fa-brands fa-instagram"></i>
+												</div>
+												<div class="form-input-sm">
+													<input type="text" class="form-input w-100 mb-0" placeholder="username">
+													<span class="form-input-sm-name">Instagram</span>
+												</div>
+											</div>
+											<div class="form-btn create-newsm-btn gap-2 mt-0">
+												<i class="fa-solid fa-plus"></i> Create New
+											</div>
+											<div class="create-newsm mt-3">
+												<input type="text" class="form-input w-100" placeholder="username">
+												<div class="file-upload-desc">
+													<svg xmlns="http://www.w3.org/2000/svg" width="19.981" height="15.987" viewBox="0 0 19.981 15.987">
+														<path id="cloud_upload" d="M18.42,8.22A7,7,0,0,0,5.06,10.11,4,4,0,0,0,6,18a1,1,0,1,0,0-2,2,2,0,0,1,0-4,1,1,0,0,0,1-1,5,5,0,0,1,9.73-1.61,1,1,0,0,0,.78.67,3,3,0,0,1,.24,5.84,1,1,0,1,0,.5,1.94,5,5,0,0,0,.17-9.62Zm-5.71,2.07a1.034,1.034,0,0,0-1.42,0l-3,3a1,1,0,0,0,1.42,1.42L11,13.41V19a1,1,0,0,0,2,0V13.41l1.29,1.3a1,1,0,1,0,1.42-1.42Z" transform="translate(-1.991 -4.013)" fill="#6563ff"/>
+													</svg>
+													<p class="file-upload-desc__text">Upload Files & Media</p>
+													<div class="file-upload-desc__btn">
+														<svg id="Component_238_3" data-name="Component 238 – 3" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+															<circle id="Ellipse_164" data-name="Ellipse 164" cx="11.5" cy="11.5" r="11.5" fill="#e8e8ff"/>
+															<path id="_9040435_info_lg_icon" data-name="9040435_info_lg_icon" d="M9.708,6.075l-3.024.379-.108.5.6.108c.387.093.464.232.38.619L6.576,12.26C6.321,13.443,6.716,14,7.643,14a2.729,2.729,0,0,0,1.933-.789l.116-.549a1.464,1.464,0,0,1-.9.325c-.363,0-.494-.255-.4-.7L9.708,6.075ZM9.8,3.32A1.32,1.32,0,1,1,8.479,2,1.32,1.32,0,0,1,9.8,3.32Z" transform="translate(3.35 3.5)"/>
+														</svg>
+														<div class="file-desBox">
+															<div class="file-desBox__text">Videos must be less than <span class="bold mid-black"> 30 MB </span></div>
+															<div class="file-desBox__text">and image must be less than <span class="bold mid-black"> 2 MB </span></div>
+														</div>
+													</div>
+												</div>
+												<p class="file-upload__hdng">Upload picture</p>
+												<div class="">
+													<div x-data="dataFileDnD()" class="">
+														<div x-ref="dnd" class="relative flex flex-col dropablebox rounded cursor-pointer">
+															<input accept="*" type="file" multiple class="absolute inset-0 z-50 w-full h-full p-0 m-0 outline-none opacity-0 cursor-pointer"
+																@change="addFiles($event)"
+																@dragover="$refs.dnd.classList.add('border-blue-400'); $refs.dnd.classList.add('ring-4'); $refs.dnd.classList.add('ring-inset');"
+																@dragleave="$refs.dnd.classList.remove('border-blue-400'); $refs.dnd.classList.remove('ring-4'); $refs.dnd.classList.remove('ring-inset');"
+																@drop="$refs.dnd.classList.remove('border-blue-400'); $refs.dnd.classList.remove('ring-4'); $refs.dnd.classList.remove('ring-inset');"
+																title="" />
+													
+															<div class="flex flex-col items-center justify-center py-10 text-center">
+																<svg xmlns="http://www.w3.org/2000/svg" class="mb-2" width="22.762" height="17.704" viewBox="0 0 22.762 17.704">
+																	<path id="_8664907_folder_open_document_icon" data-name="8664907_folder_open_document_icon" d="M22.628,41.417,18.834,49a1.274,1.274,0,0,1-1.166.7H2.529A2.529,2.529,0,0,1,0,47.175V34.529A2.529,2.529,0,0,1,2.529,32H7.172a2.53,2.53,0,0,1,1.789.741L10.9,34.529h5.536a2.529,2.529,0,0,1,2.529,2.529v1.265h-1.9V37.058a.633.633,0,0,0-.632-.632H10.116l-2.5-2.344a.622.622,0,0,0-.447-.185H2.529a.633.633,0,0,0-.632.632V45.91l2.812-5.623a1.264,1.264,0,0,1,1.132-.7H21.5A1.265,1.265,0,0,1,22.628,41.417Z" transform="translate(0 -32)" fill="#6563ff"/>
+																</svg>
+																<p class="m-0 text-[#262627] dragable-text">Click <span class="bold text-[#6563FF]"> or </span> drag & drop</p>
+															</div>
+														</div>
+														<div class="progress">
+															<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+														</div>
+														<template x-if="files.length > 0">
+															<div class="dragable-show-wrpr" @drop.prevent="drop($event)"
+																@dragover.prevent="$event.dataTransfer.dropEffect = 'move'">
+																<template x-for="(_, index) in Array.from({ length: files.length })">
+																	<div class="relative flex flex-col items-center overflow-hidden text-center bg-gray-100 border rounded cursor-move select-none dragable-show-wrpr-box"
+																		@dragstart="dragstart($event)" @dragend="fileDragging = null"
+																		:class="{'border-blue-600': fileDragging == index}" draggable="true" :data-index="index">
+																		<button class="absolute top-0 right-0 z-50 p-1 bg-white rounded-bl focus:outline-none" type="button" @click="remove(index)">
+																			<svg class="w-4 h-4 text-gray-700" xmlns="http://www.w3.org/2000/svg" fill="none"
+																				viewBox="0 0 24 24" stroke="currentColor">
+																				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+																					d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+																			</svg>
+																		</button>
+																		<template x-if="files[index].type.includes('audio/')">
+																			<svg class="absolute w-12 h-12 text-gray-400 transform top-1/2 -translate-y-2/3"
+																				xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+																				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+																					d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+																			</svg>
+																		</template>
+																		<template x-if="files[index].type.includes('application/') || files[index].type === ''">
+																			<svg class="absolute w-12 h-12 text-gray-400 transform top-1/2 -translate-y-2/3"
+																				xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+																				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+																					d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+																			</svg>
+																		</template>
+																		<template x-if="files[index].type.includes('image/')">
+																			<img class="absolute inset-0 z-0 object-cover w-full h-full border-4 border-white preview"
+																				x-bind:src="loadFile(files[index])" />
+																		</template>
+																		<template x-if="files[index].type.includes('video/')">
+																			<video
+																				class="absolute inset-0 object-cover w-full h-full border-4 border-white pointer-events-none preview">
+																				<fileDragging x-bind:src="loadFile(files[index])" type="video/mp4">
+																			</video>
+																		</template>
+													
+																		<div class="">
+																			<span class="w-full font-bold text-gray-900 truncate"
+																				x-text="files[index].name">Loading</span>
+																			<span class="text-xs text-gray-900" x-text="humanFileSize(files[index].size)">...</span>
+																		</div>
+													
+																		<div class="" @dragenter="dragenter($event)"
+																			@dragleave="fileDropping = null"
+																			:class="{'bg-blue-200 bg-opacity-80': fileDropping == index && fileDragging != index} ">
+																		</div>
+																	</div>
+																</template>
+															</div>
+														</template>
+													</div>
+												</div>
+												<button type="submit" class="form-btn form-btn2">
+													Save
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="myModal__footer">
+					<div class="myModal__footer-btn_wrapper">
+						<div class="myModal__footer-btn myModal__footer-btn1" role="button" data-bs-toggle="modal" data-bs-target="#createAbout">
+							Cancel
+						</div>
+						<div class="myModal__footer-btn">
+							Save
+						</div>
+					</div>
+				</div>
+            </div>
+		</div>
+	</div>
+</div>
+<!-- edit team end -->
+<div class="modal fade" id="viewteam" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="myModal__hdr">
+				<div class="myModal__hdr-wrpr flex justify-between items-center">
+					<div class="myModal__hdrb1 flex items-center">
+						<img src="assets/images/avatar.png" alt="" class="myModal__hdrb1_img">
+						<div class="myModal__hdrb1-contnt">
+							<h1 class="myModal__hdrb1-h1">A7med Omer</h1>
+							<p class="myModal__hdrb1-p">Social Media Markting</p>
+						</div>
+					</div>
+					<div class="myModal__hdrb2 flex">
+						<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+							<g id="Group_213" data-name="Group 213" transform="translate(-798 -178)">
+								<circle id="Ellipse_155" data-name="Ellipse 155" cx="10.5" cy="10.5" r="10.5" transform="translate(798 178)" fill="#c5facc"/>
+								<g id="_8666798_clock_watch_icon" data-name="8666798_clock_watch_icon" transform="translate(802.975 182.896)">
+									<circle id="Ellipse_138" data-name="Ellipse 138" cx="5.5" cy="5.5" r="5.5" transform="translate(0.025 0.104)" fill="none" stroke="#1fa730" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+									<path id="Path_570" data-name="Path 570" d="M12,6V9.436l2.29,1.145" transform="translate(-6.274 -4.033)" fill="none" stroke="#1fa730" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+								</g>
+							</g>
+						</svg>
+						<div class="myModal__hdrb1-contnt">
+							<h1 class="myModal__hdrb1-h1">jon at </h1>
+							<p class="myModal__hdrb1-p">18 April, 2020</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="myModal__body">
+				<div class="myModal_body_row flex items-center">
+					<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+						<g id="Group_204" data-name="Group 204" transform="translate(-473 -277)">
+							<circle id="Ellipse_149" data-name="Ellipse 149" cx="17" cy="17" r="17" transform="translate(473 277)" fill="#e24553"/>
+							<g id="mail_email_e-mail_letter" data-name="mail email e-mail letter" transform="translate(477.437 281.182)">
+								<path id="Path_22" data-name="Path 22" d="M20.543,13a.7.7,0,0,0-.7.7v5.614a.7.7,0,0,1-.7.7H5.105a.7.7,0,0,1-.7-.7V13.7a.7.7,0,0,0-1.4,0v5.614a2.108,2.108,0,0,0,2.105,2.105H19.14a2.108,2.108,0,0,0,2.105-2.105V13.7A.7.7,0,0,0,20.543,13Z" transform="translate(0 -1.79)" fill="#fff"/>
+								<path id="Path_23" data-name="Path 23" d="M11.759,15.28a.7.7,0,0,0,.842,0l8.287-6.217A.7.7,0,0,0,21.1,8.2a2.147,2.147,0,0,0-.414-.582A2.105,2.105,0,0,0,19.2,7H5.162a2.105,2.105,0,0,0-1.488.618,2.147,2.147,0,0,0-.414.582.7.7,0,0,0,.211.863ZM5.162,8.4H19.2a.632.632,0,0,1,.2,0L12.18,13.842,4.966,8.4A.632.632,0,0,1,5.162,8.4Z" transform="translate(-0.057)" fill="#fff"/>
+							</g>
+						</g>
+					</svg>
+					<p class="myModal_body_row_text">
+						A7med@gmail.com
+					</p>
+				</div>
+				<div class="myModal_body_row flex items-center">
+					<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+						<g id="Group_205" data-name="Group 205" transform="translate(-473 -322)">
+							<circle id="Ellipse_150" data-name="Ellipse 150" cx="17" cy="17" r="17" transform="translate(473 322)" fill="#00aefc"/>
+							<g id="_1530079_check_location_map_marker_pin_icon" data-name="1530079_check_location_map_marker_pin_icon" transform="translate(457.943 312.038)">
+								<path id="Path_571" data-name="Path 571" d="M39.212,24.449a7.089,7.089,0,0,0-1.187-3.938L39.2,19.306l-.8-.779-7.063,7.224-1.919-2.625-.9.657,2.7,3.687,6.006-6.143a5.987,5.987,0,0,1,.871,3.122,6.069,6.069,0,0,1-4.768,5.907.556.556,0,0,0-.406.353l-.754,2.061h-.252l-.791-2.081a.558.558,0,0,0-.4-.346,6.042,6.042,0,1,1,4.479-11.05l.582-.949a7.156,7.156,0,1,0-5.6,13.014l.557,1.462c-1.672.121-4.285.526-4.285,1.88,0,1.877,5.023,1.932,5.6,1.932s5.6-.054,5.6-1.932c0-1.362-2.643-1.764-4.314-1.882l.529-1.446A7.193,7.193,0,0,0,39.212,24.449ZM36.5,34.7c-.346.323-1.958.818-4.443.818s-4.1-.5-4.442-.818a7.357,7.357,0,0,1,3.544-.795l.377.993a.558.558,0,0,0,.521.359h0a.557.557,0,0,0,.52-.366l.362-.987A7.369,7.369,0,0,1,36.5,34.7Z" fill="#fff"/>
+							</g>
+						</g>
+					</svg>
+					<p class="myModal_body_row_text">
+						Abu Dhabi, Al Khaldia, Electra Str
+					</p>
+				</div>
+				<div class="myModal_body_row flex items-center">
+					<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+						<g id="Group_206" data-name="Group 206" transform="translate(-473 -367)">
+							<circle id="Ellipse_151" data-name="Ellipse 151" cx="17" cy="17" r="17" transform="translate(473 367)" fill="#f09d00"/>
+							<g id="_352067_phone_icon" data-name="352067_phone_icon" transform="translate(481.433 376)">
+								<path id="Path_572" data-name="Path 572" d="M17.5,2H11.785A1.786,1.786,0,0,0,10,3.785V15.922a1.786,1.786,0,0,0,1.785,1.785H17.5a1.786,1.786,0,0,0,1.785-1.785V3.785A1.786,1.786,0,0,0,17.5,2ZM14.641,16.993a1.071,1.071,0,1,1,1.071-1.071A1.069,1.069,0,0,1,14.641,16.993Zm3.213-2.856H11.428v-10h6.426Z" transform="translate(-6.43 -1.286)" fill="#fff"/>
+								<path id="Path_573" data-name="Path 573" d="M0,0H17.135V17.135H0Z" fill="none"/>
+							</g>
+						</g>
+					</svg>
+					<p class="myModal_body_row_text">
+						+971502615675
+					</p>
+				</div>
+				<div class="myModal_body_row flex items-center">
+					<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+						<g id="Group_208" data-name="Group 208" transform="translate(-473 -412)">
+							<path id="Path_628" data-name="Path 628" d="M17,0A17,17,0,1,1,0,17,17,17,0,0,1,17,0Z" transform="translate(473 412)" fill="#009550"/>
+							<path id="_8666665_check_icon" data-name="8666665_check_icon" d="M14.15,6,7.172,12.978,4,9.806" transform="translate(480.925 420.152)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+						</g>
+					</svg>
+					<p class="myModal_body_row_text">
+						10 Completed Projects
+					</p>
+				</div>
+				<div class="myModal_body_row flex items-center">
+					<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+						<g id="Group_207" data-name="Group 207" transform="translate(-473 -457)">
+							<circle id="Ellipse_152" data-name="Ellipse 152" cx="17" cy="17" r="17" transform="translate(473 457)" fill="#5356e1"/>
+							<g id="_216469_star_icon_1_" data-name="216469_star_icon (1)" transform="translate(477.789 462)">
+							<g id="Group_79" data-name="Group 79">
+								<path id="Path_575" data-name="Path 575" d="M16.855,20.966a1.506,1.506,0,0,1-.646-.146.831.831,0,0,1-.1-.051L12,18.426,7.891,20.77a1.163,1.163,0,0,1-.106.053,1.524,1.524,0,0,1-1.521-.143,1.5,1.5,0,0,1-.586-1.509l.957-4.642-1.6-1.457L3.138,11.347a.756.756,0,0,1-.078-.082,1.493,1.493,0,0,1,.82-2.5.87.87,0,0,1,.1-.018l4.7-.521,1.946-4.31a.692.692,0,0,1,.06-.11,1.5,1.5,0,0,1,2.618,0c.021.036.041.073.06.112l1.948,4.312,4.7.521a.8.8,0,0,1,.1.017,1.5,1.5,0,0,1,.818,2.506c-.024.026-.051.054-.078.078l-3.5,3.184.957,4.632a1.514,1.514,0,0,1-.59,1.519A1.488,1.488,0,0,1,16.855,20.966ZM8.706,14.4c-.039.182-.466,2.246-.845,4.082L11.5,16.407a1,1,0,0,1,.99,0l3.643,2.075-.849-4.1a1,1,0,0,1,.308-.942l3.1-2.822-4.168-.461a1,1,0,0,1-.8-.584L12,5.748,10.273,9.569a1.007,1.007,0,0,1-.8.584L5.3,10.614l3.1,2.822A1,1,0,0,1,8.706,14.4Z" fill="#fff"/>
+							</g>
+							</g>
+						</g>
+						</svg>
+					<p class="myModal_body_row_text">
+						5 years experience
+					</p>
+				</div>
+				<div class="myModal_body_row flex items-center">
+					<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+						<g id="Group_210" data-name="Group 210" transform="translate(-473 -502)">
+							<circle id="Ellipse_153" data-name="Ellipse 153" cx="17" cy="17" r="17" transform="translate(473 502)" fill="#1eaefc"/>
+							<g id="_8666750_calendar_schedule_icon" data-name="8666750_calendar_schedule_icon" transform="translate(479 508.643)">
+								<rect id="Rectangle_592" data-name="Rectangle 592" width="15" height="15" rx="2" transform="translate(3 3.357)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+								<line id="Line_12" data-name="Line 12" y2="3" transform="translate(14 2.357)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+								<line id="Line_13" data-name="Line 13" y2="3" transform="translate(7 2.357)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+								<line id="Line_14" data-name="Line 14" x2="15" transform="translate(3 8.357)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+							</g>
+						</g>
+					</svg>
+					<p class="myModal_body_row_text">
+						24/7 Support
+					</p>
+				</div>
+				<div class="myModal_body_row flex items-center">
+					<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+						<g id="Group_211" data-name="Group 211" transform="translate(-473 -548)">
+							<circle id="Ellipse_154" data-name="Ellipse 154" cx="17" cy="17" r="17" transform="translate(473 548)" fill="#1eaefc"/>
+							<path id="_7787531_earth_globe_world_flag_country_icon" data-name="7787531_earth_globe_world_flag_country_icon" d="M24,15a8.993,8.993,0,1,0,6.366,2.634A9,9,0,0,0,24,15Zm0,2.118a6.95,6.95,0,0,1,3.441.9c-.159.212-.318.424-.424.582-.318.424-.476.688-.688.794-.212.159-.371.159-.953.212a2.036,2.036,0,0,0-1.006.265,2.747,2.747,0,0,0-1.165,1.165c-.159.318-.212.688-.371,1.059a2.077,2.077,0,0,1-.424.741c-.318.318-.318-.265-.371-.529a6.3,6.3,0,0,0-.9-1.906,1.826,1.826,0,0,0-.424-.476,1.683,1.683,0,0,0-1.429-.053,5.623,5.623,0,0,0-1.006.212A7.087,7.087,0,0,1,24,17.118Zm0,13.765A6.869,6.869,0,0,1,17.118,24a6.225,6.225,0,0,1,.159-1.429l2.435-.582a4.042,4.042,0,0,1,.476,1.482,1.62,1.62,0,0,0,.159.794,1.649,1.649,0,0,0,.741.847,2.1,2.1,0,0,0,1.376.265,1.836,1.836,0,0,0,1.006-.529,8.48,8.48,0,0,0,1.165-1.376,2.786,2.786,0,0,0,.424-1.218.612.612,0,0,1,.635-.635,2.965,2.965,0,0,0,1.853-.582,5.082,5.082,0,0,0,1.165-1.271,3.706,3.706,0,0,1,.424-.529,6.9,6.9,0,0,1,1.8,4.659,6.776,6.776,0,0,1-.476,2.541,8.4,8.4,0,0,1-1.059-.371,6.2,6.2,0,0,0-1.694-.476,16.871,16.871,0,0,0-2.806.318c-1.006.106-.953,1.324-.741,2.065a4.524,4.524,0,0,0,.688,1.588,4.071,4.071,0,0,0,.953.953A4.222,4.222,0,0,1,24,30.882Zm4.394-1.641a1.274,1.274,0,0,1-1.059-.159,2.134,2.134,0,0,1-.741-.688,3.144,3.144,0,0,1-.212-.424l1.218-.159c.265.106.476.159.741.265s.741.159.953.371C29.4,28.447,28.5,29.188,28.394,29.241Z" transform="translate(466 541)" fill="#fff"/>
+						</g>
+					</svg>
+					<p class="myModal_body_row_text">
+						English - Arabic
+					</p>
+				</div>
+				<div class="myModal_body_row flex">
+					<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+						<g id="Group_212" data-name="Group 212" transform="translate(-473 -595)">
+							<path id="Path_629" data-name="Path 629" d="M17,0A17,17,0,1,1,0,17,17,17,0,0,1,17,0Z" transform="translate(473 595)" fill="#7c030e"/>
+							<g id="_8666628_user_check_icon" data-name="8666628_user_check_icon" transform="translate(482 601.877)">
+								<path id="Path_588" data-name="Path 588" d="M12.871,19.748V18.166A3.166,3.166,0,0,0,9.706,15H4.166A3.166,3.166,0,0,0,1,18.166v1.583" transform="translate(0 -2.503)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+								<circle id="Ellipse_142" data-name="Ellipse 142" cx="3.166" cy="3.166" r="3.166" transform="translate(3.77 3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+								<path id="Path_589" data-name="Path 589" d="M17,10.583l1.583,1.583L21.748,9" transform="translate(-3.337 -1.252)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+							</g>
+						</g>
+					</svg>
+					<p class="myModal_body_row_text">
+						It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+					</p>
+				</div>
+			</div>
+			<div class="myModal__footer">
+				<div class="myModal__footer-wrpr">
+					<svg xmlns="http://www.w3.org/2000/svg" width="22.073" height="22.073" viewBox="0 0 22.073 22.073">
+						<g id="_8656147_user_network_friends_connection_communication_social_media_icon" data-name="8656147_user network_friends_connection_communication_social media_icon" transform="translate(-1.5 -1.5)">
+							<path id="Path_613" data-name="Path 613" d="M17,15a1,1,0,1,0,1,1A1,1,0,0,0,17,15Zm-2,1a2,2,0,1,1,2,2A2,2,0,0,1,15,16Z" transform="translate(0.852 0.789)" fill="#8e8c8c" fill-rule="evenodd"/>
+							<path id="Path_614" data-name="Path 614" d="M7,5A1,1,0,1,0,8,6,1,1,0,0,0,7,5ZM5,6A2,2,0,1,1,7,8,2,2,0,0,1,5,6Z" transform="translate(0.221)" fill="#8e8c8c" fill-rule="evenodd"/>
+							<path id="Path_615" data-name="Path 615" d="M17,18a3.5,3.5,0,0,0-3.344,2.463l-.955-.3a4.5,4.5,0,0,1,8.6,0l-.955.3A3.5,3.5,0,0,0,17,18Z" transform="translate(1.073 1.073)" fill="#8e8c8c" fill-rule="evenodd"/>
+							<path id="Path_616" data-name="Path 616" d="M7,8a3.5,3.5,0,0,0-3.344,2.464l-.955-.3a4.5,4.5,0,0,1,8.6,0l-.955.3A3.5,3.5,0,0,0,7,8Z" transform="translate(0 0.337)" fill="#8e8c8c" fill-rule="evenodd"/>
+							<path id="Path_617" data-name="Path 617" d="M17,12.5A4.5,4.5,0,1,0,21.5,17,4.5,4.5,0,0,0,17,12.5ZM11.5,17A5.5,5.5,0,1,1,17,22.5,5.5,5.5,0,0,1,11.5,17Z" transform="translate(1.073 1.073)" fill="#8e8c8c" fill-rule="evenodd"/>
+							<path id="Path_618" data-name="Path 618" d="M7,2.5A4.5,4.5,0,1,0,11.5,7,4.5,4.5,0,0,0,7,2.5ZM1.5,7A5.5,5.5,0,1,1,7,12.5,5.5,5.5,0,0,1,1.5,7Z" fill="#8e8c8c" fill-rule="evenodd"/>
+							<path id="Path_619" data-name="Path 619" d="M6,15.5A1.5,1.5,0,1,0,7.5,17,1.5,1.5,0,0,0,6,15.5ZM3.5,17A2.5,2.5,0,1,1,6,19.5,2.5,2.5,0,0,1,3.5,17Z" transform="translate(0 1.073)" fill="#8e8c8c" fill-rule="evenodd"/>
+							<path id="Path_620" data-name="Path 620" d="M18,5.5A1.5,1.5,0,1,1,16.5,7,1.5,1.5,0,0,1,18,5.5ZM20.5,7A2.5,2.5,0,1,0,18,9.5,2.5,2.5,0,0,0,20.5,7Z" transform="translate(1.073)" fill="#8e8c8c" fill-rule="evenodd"/>
+							<path id="Path_621" data-name="Path 621" d="M8,16.5h4v1H8Z" transform="translate(0.41 0.805)" fill="#8e8c8c" fill-rule="evenodd"/>
+							<path id="Path_622" data-name="Path 622" d="M16,6.5H12v1h4Z" transform="translate(0.663 0.268)" fill="#8e8c8c" fill-rule="evenodd"/>
+							<path id="Path_623" data-name="Path 623" d="M10.854,10.146l3,3-.707.707-3-3Z" transform="translate(0.536 0.536)" fill="#8e8c8c" fill-rule="evenodd"/>
+						</g>
+					</svg>
+					<h1 class="myModal__footer-h1">Social Media </h1>
+					<svg xmlns="http://www.w3.org/2000/svg" width="15.734" height="8.2" viewBox="0 0 15.734 8.2">
+						<g id="Layer_2" data-name="Layer 2" transform="translate(0 0)">
+						<path id="Path_624" data-name="Path 624" d="M13.271,16.741a.562.562,0,0,1,0-.793l2.586-2.58H2.62a.562.562,0,1,1,0-1.124H15.84L13.271,9.676a.566.566,0,1,1,.8-.8l3.575,3.58a.506.506,0,0,1,0,.714l-3.575,3.575a.562.562,0,0,1-.8,0Z" transform="translate(-2.058 -8.707)" fill="#818181"/>
+						</g>
+					</svg>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- view team end -->
+<div class="modal fade" id="delete" tabindex="-1" aria-labelledby="deleteCateModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+            <div class="modal-body modal-body--pd-0 text-center">
+				<div class="myModal__hdr flex items-center justify-between">
+					<h1 class="myModal__hdr-hdng">Delete ID No #1</h1>
+					<button type="button" class="modalClose" data-bs-dismiss="modal">
+						<i class="fa-solid fa-xmark modalClose_icon"></i>
+					</button>
+				</div>
+               <div class="myModal__body">
+					<img src="assets/images/del-modl1.png" alt="" class="myModal__icn">
+					<p class="myModal__text">
+						Are you sure you want to <span class="dark-pink"> delete </span>  this ?
+					</p>
+					<button class="myModal__delbtn">
+						<span class="myModal__deltext">Yes Do it</span>
+						<span class="myModal__deltext  myModal__deltext2 d-none">Delete</span>
+						<img src="assets/images/dell-icone.png" alt="" class="myModal__delbtn-img">
+					</button>
+			   </div>
+            </div>
+		</div>
+	</div>
+</div>
+<!-- delete end -->
+<script src="dist/bootstrap-flash-alert.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+<script src="https://unpkg.com/create-file-list"></script>
+<script src="assets/js/scripts.js"></script>
+</body>
+</html>
